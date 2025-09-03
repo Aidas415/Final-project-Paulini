@@ -1,8 +1,5 @@
 /// <reference types='cypress' />
 
-// beforeEach(() => {
-//   cy.visit('/');
-// });
 
 beforeEach(() => {
   cy.visit("https://paulini.lt");

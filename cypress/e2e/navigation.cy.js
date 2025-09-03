@@ -12,7 +12,7 @@ beforeEach(() => {
 });
 
 describe("TS 03. Navigation Menu", () => {
-  it('TC 03.01. - Page "PRIĖMIMO SKYRIAI" is visible and accessible from main page', () => {});
+  // it('TC 03.01. - Page "PRIĖMIMO SKYRIAI" is visible and accessible from main page', () => {});
   // it('TC 03.02. - Page "AKCIJOS IR NAUJIENOS" is visible and accessible from main page', () => {});
   // it('TC 03.03. - Page "APIE MUS" is visible and accessible from main page', () => {});
   // it('TC 03.04. - Page "AKCIJOS IR NAUJIENOS" is visible and accessible from "PRIĖMIMO SKYRIAI" page', () => {});

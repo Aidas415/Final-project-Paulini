@@ -3,7 +3,8 @@
   "version": "1.0.0",
   "main": "index.js",
   "scripts": {
-    "test": "cypress open"
+    "test": "cypress open",
+    "loctest": "cypress run -b chrome"
   },
   "keywords": [],
   "author": "",
@@ -11,5 +12,8 @@
   "description": "",
   "devDependencies": {
     "cypress": "^15.0.0"
+  },
+  "dependencies": {
+    "concurrently": "^9.2.1"
   }
 }

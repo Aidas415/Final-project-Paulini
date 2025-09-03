@@ -1,4 +1,4 @@
-TS 2. Login/Logout
+TS 2. Login
     Positive Login
     TC 02.01. - Positive: login with email from main page
     TC 02.02. - Positive: login with phone number from main page
@@ -11,7 +11,7 @@ TS 2. Login/Logout
     TC 02.08. - Negative: login when email without "@" symbol
     TC 02.09. - Negative: login fails with invalid phone number
     TC 02.10. - Negative: login fails with invalid password
-TS 3. Navigation manu
+TS 3. Navigation menu
     TC 03.01. - Page "PRIĖMIMO SKYRIAI" is visible and accessible from main page
     TC 03.02. - Page "AKCIJOS IR NAUJIENOS" is visible and accessible from main page
     TC 03.03. - Page "APIE MUS" is visible and accessible from main page
