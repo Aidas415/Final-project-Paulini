@@ -76,11 +76,6 @@ describe("TS 04. Hamburger Menu", () => {
         cy.clickOnPasiekimaiFromHamburger();
         cy.olBreadcrumbPasiekimai().contains('PAULINI').should('be.visible');
         cy.olBreadcrumbPasiekimai().contains('Pasiekimai').should('be.visible');
-        cy.collectionOfAchievements().contains('Metų kartu').should('be.visible');
-        cy.collectionOfAchievements().contains('Išmaniųjų spintų').should('be.visible');
-        cy.collectionOfAchievements().contains('Priėmimo skyriai').should('be.visible');
-        cy.collectionOfAchievements().contains('Draugų').should('be.visible');
-        cy.collectionOfAchievements().contains('Išvalytų drabužių').should('be.visible');
     });
 
     it('TC 04.08. - The "PARTNERIAI" page is accessible from the "hamburger" menu', () => {

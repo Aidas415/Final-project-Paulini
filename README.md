@@ -1,6 +1,6 @@
-# Website Testing Project with Cypress, Jira, and GitHub Actions
+# Paulini Website Testing Project with Cypress, Jira, and GitHub Actions
 
-This project is designed to automate website testing using [Cypress](https://www.cypress.io/) and manage test scenarios through [Jira](https://www.atlassian.com/software/jira). The tests are executed and monitored via GitHub Actions for continuous integration.
+This project is designed to automate website testing using [Cypress](https://www.cypress.io/) and manage test scenarios through [Jira](https://www.atlassian.com/software/jira). The tests are executed and monitored via GitHub Actions for continuous integration. At this project you will need to use envirouments. This project website https://paulini.lt/
 
 ## 📋 Project Overview
 
@@ -16,46 +16,37 @@ To run this project locally, follow these steps:
 ### 1. Clone the repository
 
 ```bash
-git clone https://github.com/your-username/your-repo-name.git
-cd your-repo-name
+git clone https://github.com/Aidas415/Final-project-Paulini.git
+cd Final-project-Paulini
 ```
 
 2. Install dependencies
-Make sure you have Node.js installed.
+
 
 ```bash
 npm install
 ```
 
-3. Run Cypress tests
+1. Run Cypress tests
 
 ```
 npx cypress open
 ```
 
-Or to run in headless mode:
-
-```
 npx cypress run
 ```
 
 🧪 Test Scenarios
-Detailed instructions for each test scenario are available in the following files:
-• 	Login Scenario
-• 	Checkout Scenario
-• 	Error Handling Scenario
-Each file includes:
-• 	Scenario description
-• 	Steps to reproduce
-• 	Expected results
-• 	Jira ticket reference
+TS 2. Login
+TS 3. Navigation menu
+TS 4. Hamburger menu
 
 
 ⚙️ GitHub Actions
 This project uses GitHub Actions to automatically run Cypress tests on every push or pull request. The workflow file is located at
 
 ```
-.github/workflows/test.yml
+.github/workflows/node.yml
 ```
 
 You can view the test results directly in the Actions tab of your GitHub repository.
@@ -63,7 +54,7 @@ You can view the test results directly in the Actions tab of your GitHub reposit
 📂 Project Structure
 
 ```
-├── cypress/
+<!-- ├── cypress/
 │   ├── integration/
 │   └── support/
 ├── docs/
@@ -75,11 +66,11 @@ You can view the test results directly in the Actions tab of your GitHub reposit
 │       └── test.yml
 ├── .env
 ├── package.json
-└── README.md
+└── README.md -->
 ```
 
 
 👤 Author
 Created by Aidas
-📧 Email: your-email@example.com
-🌐 GitHub: your-username
+📧 Email: aidasambotas@gmail.com
+🌐 GitHub: https://github.com/Aidas415
