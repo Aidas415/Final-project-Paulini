@@ -70,7 +70,7 @@ You can view the test results directly in the Actions tab of your GitHub reposit
 ```
 
 ```
-<!-- ├── .github\workflows
+├── .github\workflows
 │   └── node.js
 ├── cypress
 │   ├── downloads
@@ -94,7 +94,7 @@ You can view the test results directly in the Actions tab of your GitHub reposit
 ├── login.img 
 ├── navigatin.img
 ├── hamburgerImg
-└── img -->
+└── img
 ```
 
 

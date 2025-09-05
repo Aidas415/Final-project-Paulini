@@ -181,7 +181,7 @@ Cypress.Commands.add('clickOnPriemimoSkyriaiFromHamburger', () => {
 });
 
 Cypress.Commands.add('pauliniLocationsOfPriemimoSkyrius', () => {
-    cy.get('.MuiPaper-root')
+    cy.get('.MuiPaper-root > p')
 });
 
 // Cypress.Commands.add('storeCityLocationsOfPriemimoSkyrius', () => {
