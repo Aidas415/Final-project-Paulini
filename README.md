@@ -69,6 +69,34 @@ You can view the test results directly in the Actions tab of your GitHub reposit
 └── README.md -->
 ```
 
+```
+<!-- ├── .github\workflows
+│   └── node.js
+├── cypress
+│   ├── downloads
+│   ├── e2e
+│   │   ├── hamburger.cy.js
+│   │   ├── login.cy.js
+│   │   └── navigation.cy.js
+│   ├── fixtures
+│   │   └──example.json
+│   └── support
+│       ├── commands.js
+│       └── e2e.js
+├── cypress.config
+├── testCases.md
+├── planas.txt
+├── jira.md
+├── README.md
+├── .gitignore
+├── package.json
+├── package-lock.json
+├── login.img 
+├── navigatin.img
+├── hamburgerImg
+└── img -->
+```
+
 
 👤 Author
 Created by Aidas

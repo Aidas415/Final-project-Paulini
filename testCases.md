@@ -12,6 +12,7 @@
 - **Environment:**  `Windows 11`, `Chrome v139.0.7258.139 (64-bit)`
 - **Pre-requisite:** Open the website `https://paulini.lt/` in a web browser
 - **Preconditions:** 
+
 - The user must access the homepage without being signed in
 - Real user credentials are used for testing purposes
 - Only non-sensitive data (name and email) will be disclosed in this test case; password and full phone number are masked
@@ -34,7 +35,7 @@
 
 - **Environment:** `Windows 11`, `Chrome v139.0.7258.139 (64-bit)`
 - **Pre-requisite:** Open the website `https://paulini.lt/` in a web browser
-- **Preconditions:** 
+- **Preconditions:**
 - The user must access the homepage without being signed in
 - - Real user credentials are used for testing purposes
 - Only non-sensitive data (name and email) will be disclosed in this test case; password and full phone number are masked
@@ -96,10 +97,8 @@
 - The form includes fields for phone/email and password
 - The `PRISIJUNGTI` action button is visible and functional
 
-  
 
 ## 👍 Login negative tests
-
 
 ### 🧪✅ **TC 02.08. - Negative: login when email without "@" symbol**
 
@@ -184,7 +183,7 @@
   - The `PRIĖMIMO SKYRIAI` menu item is underlined
 
 
-### 🧪✅ **TC 03.02. - Page "AKCIJOS IR NAUJIENOS" is visible and accessible from main page** 
+### 🧪✅ **TC 03.02. - Page "AKCIJOS IR NAUJIENOS" is visible and accessible from main page**
 
 - **Environment:** `Windows 11`, `Chrome v139.0.7258.139 (64-bit)`
 - **Pre-requisite:** Open the website `https://paulini.lt/` in a web browser
@@ -201,7 +200,6 @@
 - the top-left corner of the page shows the breadcrumb `PAULINI > AKCIJOS IR NAUJIENOS` 
 - The page shows offers where each includes a title, short description, and optionally an image or expiration date
 - The `AKCIJOS IR NAUJIENOS` menu item is underlined
-
 
 
 ### 🧪✅ **TC 03.03. - Page "APIE MUS" is visible and accessible from main page** 
@@ -395,7 +393,7 @@
 - the top-left corner of the page shows the breadcrumb `PAULINI > AKCIJOS IR NAUJIENOS` 
 - The page shows offers where each includes a title, short description, and optionally an image or expiration date
 - The `AKCIJOS IR NAUJIENOS` menu item is underlined
-- 
+
 
 ### 🧪✅ **TC 04.03. - The "PASLAUGOS IR PREKĖS" page is accessible from the "hamburger" menu**
 
@@ -540,7 +538,6 @@
 - The filling form appears
 - The form includes fields for questions, your message, email, phone number and files 
 - The breadcrumb `PAULINI > TURITE KLAUSIMŲ?` appears above the list on the left side
-
 
 
 ### 🧪✅ **TC 04.10. - The "TAISYKLĖS" page is accessible from the "hamburger" menu**

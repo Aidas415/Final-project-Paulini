@@ -1,5 +1,6 @@
 /// <reference types='cypress' />
-
+// / <reference types="cypress-xpath" />
+// require ( 'cypress-xpath' );
 
 beforeEach(() => {
   cy.visit("https://paulini.lt");

@@ -140,5 +140,6 @@ dist
 
 cypress/e2e/private.hamburger.cy.js
 cypress/e2e/private.login.cy.js
+cypress/e2e/private.navigation.cy.js
 
 cypress/screenshots

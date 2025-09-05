@@ -23,8 +23,6 @@ Clicking on the task
 
 - A detailed test cas description
 - Assignee field (can be assigned manually)
-- Reporte information
-- Development option (e.g. create branch/commit)
 - Sprint assignment (e.g. PAUL Sprint 1)
 ![Jira_backlog](/img/Jira_backlog.png)
 
@@ -48,7 +46,7 @@ Clicking on the task
 - The board visually reflects real-time progress
 - Sprint can be completed once all task are moved to Done
   
-  ![Jira_completed](/img/Jira_completed.png)
+![Jira_completed](/img/Jira_completed.png)
 
 
 ## 5. Best Practices

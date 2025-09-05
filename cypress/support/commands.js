@@ -1,4 +1,5 @@
 /// <reference types='cypress' />
+// / <reference types="cypress-xpath" />
 
 // const cypress = require("cypress");
 
@@ -52,11 +53,11 @@ Cypress.Commands.add("clickOnHamburgerMenu", () => {
 });
 
 Cypress.Commands.add('loginPhoneNmbEmailField', () => {
-    cy.get('[name="loginName"]').click();
+    cy.get('input[name="loginName"]').click();
 });
 
 Cypress.Commands.add('loginPasswordField', () => {
-    cy.get('[name="password"]').click();
+    cy.get('input[name="password"]').click();
 });
 
 Cypress.Commands.add('loginButtonPrisijungti', () => {
@@ -179,9 +180,17 @@ Cypress.Commands.add('clickOnPriemimoSkyriaiFromHamburger', () => {
     cy.get(':nth-child(7) > .MuiListItemText-root > .MuiTypography-root').click();
 });
 
-Cypress.Commands.add('locationsPriemimoSkyrius', () => {
-    cy.get('div[class="MuiGrid-root MuiGrid-container css-1ldf7i0"] p')
+Cypress.Commands.add('pauliniLocationsOfPriemimoSkyrius', () => {
+    cy.get('.MuiPaper-root')
 });
+
+// Cypress.Commands.add('storeCityLocationsOfPriemimoSkyrius', () => {
+//     cy.get('.MuiPaper-root .MuiBox-root > p')
+// });
+
+// Cypress.Commands.add('storeCityLocationsOfPriemimoSkyrius', () => {
+//     cy.contains('.MuiPaper-root')
+// });
 
 Cypress.Commands.add('olBreadcrumbPriemimoSkyriai', () => {
     cy.get('.MuiBreadcrumbs-ol')
