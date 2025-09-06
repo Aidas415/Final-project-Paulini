@@ -180,9 +180,9 @@ Cypress.Commands.add('clickOnPriemimoSkyriaiFromHamburger', () => {
     cy.get(':nth-child(7) > .MuiListItemText-root > .MuiTypography-root').click();
 });
 
-Cypress.Commands.add('pauliniLocationsOfPriemimoSkyrius', () => {
-    cy.get('.MuiPaper-root > p')
-});
+// Cypress.Commands.add('pauliniLocationsOfPriemimoSkyrius', () => {
+//     cy.get('.MuiGrid-container .MuiTypography-root .MuiTypography-body1 > p')
+// });
 
 // Cypress.Commands.add('storeCityLocationsOfPriemimoSkyrius', () => {
 //     cy.get('.MuiPaper-root .MuiBox-root > p')

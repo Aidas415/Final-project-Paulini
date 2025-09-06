@@ -24,7 +24,7 @@ Clicking on the task
 - A detailed test cas description
 - Assignee field (can be assigned manually)
 - Sprint assignment (e.g. PAUL Sprint 1)
-![Jira_backlog](/img/Jira_backlog.png)
+![Jira_backlog](/pictures/img/Jira_backlog.png)
 
 
 ## 3. Sprint Workflow
@@ -38,7 +38,7 @@ Clicking on the task
 
 ## Sprint Example:
 
-![Jira_board](/img/Jira_board.png)
+![Jira_board](/pictures/img/Jira_board.png)
 
 ## 4. Complection Tracking
 
@@ -46,7 +46,7 @@ Clicking on the task
 - The board visually reflects real-time progress
 - Sprint can be completed once all task are moved to Done
   
-![Jira_completed](/img/Jira_completed.png)
+![Jira_completed](/pictures/img/Jira_completed.png)
 
 
 ## 5. Best Practices

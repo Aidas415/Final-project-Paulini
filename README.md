@@ -83,19 +83,37 @@ You can view the test results directly in the Actions tab of your GitHub reposit
 │   └── support
 │       ├── commands.js
 │       └── e2e.js
-├── cypress.config
-├── testCases.md
-├── planas.txt
-├── jira.md
-├── README.md
+├── pictures
+│   ├── hamburgerImg
+│   ├── img
+│   ├── login.img
+│   └── navigatin.img   
 ├── .gitignore
-├── package.json
+├── cypress.config 
+├── jira.md
 ├── package-lock.json
-├── login.img 
-├── navigatin.img
-├── hamburgerImg
-└── img
+├── package.json 
+├── plan.txt
+├── README.md 
+└── testCases.md
 ```
+
+<!-- ├── .github\workflows
+│   └── node.js
+├────────────────────────── cypress 
+├── pictures                ├── downloads
+│   ├── hamburgerImg        ├── e2e
+│   ├── img                 │   ├── hamburger.cy.js
+│   ├── login.img           │   ├── login.cy.js
+│   └── navigatin.img       │   └── navigation.cy.js   
+├── .gitignore              ├── fixtures
+├── cypress.config          │   └──example.json 
+├── jira.md                 └── support
+├── package-lock.json           └── e2e.js
+├── package.json 
+├── plan.txt
+├── README.md 
+└── testCases.md -->
 
 
 👤 Author
