@@ -2,7 +2,7 @@
 // / <reference types="cypress-xpath" />
 // require ( 'cypress-xpath' );
 
-describe("TS 04. Hamburger Menu", () => {
+describe("TS 03. Hamburger Menu", () => {
   
 beforeEach(() => {
   cy.visit("https://paulini.lt");
@@ -13,7 +13,7 @@ beforeEach(() => {
     beforeEach(() => {
       cy.clickOnHamburgerMenu();
     });
-    it('TC 04.01. - Registration is possible from the "hamburger" menu', () => {
+    it('TC 03.01. - Registration is possible from the "hamburger" menu', () => {
       cy.clickOnRegistrationFromHamburger();
       cy.registrationFirstName().should("be.visible");
       cy.registrationLastName().should("be.visible");
@@ -27,7 +27,7 @@ beforeEach(() => {
       cy.registrationPatvirtinti().should("be.visible");
     });
 
-    it('TC 04.02. - The "AKCIJOS IR NAUJIENOS" page is accessible from the "hamburger" menu', () => {
+    it('TC 03.02. - The "AKCIJOS IR NAUJIENOS" page is accessible from the "hamburger" menu', () => {
       cy.clickOnAkcijosNaujienosFromHamburger();
       cy.breadcrumbAkcijosNaujienos().should("be.visible");
       cy.fieldAkcijosNaujienos01().should("be.visible");
@@ -38,7 +38,7 @@ beforeEach(() => {
       cy.fieldAkcijosNaujienos06().should("be.visible");
     });
 
-    it('TC 04.03. - The "PASLAUGOS IR PREKĖS" page is accessible from the "hamburger" menu', () => {
+    it('TC 03.03. - The "PASLAUGOS IR PREKĖS" page is accessible from the "hamburger" menu', () => {
       cy.clickOnPaslaugosPrekesFromHamburger();
       cy.olBreadcrumbPaslaugosPrekes().contains("PAULINI").should("be.visible");
       cy.olBreadcrumbPaslaugosPrekes().contains("Prekės ir paslaugos").should("be.visible");
@@ -46,7 +46,7 @@ beforeEach(() => {
       cy.divPrekesPaslaugos().contains("Paslaugos").should("be.visible");
     });
 
-    it('TC 04.04. - The "KREDITAI IR KUPONAI" page is accessible from the "hamburger" menu', () => {
+    it('TC 03.04. - The "KREDITAI IR KUPONAI" page is accessible from the "hamburger" menu', () => {
       cy.clickOnKreditaiKuponaiFromHamburger();
       cy.olBreadcrumbKreditaiKuponai().contains("PAULINI").should("be.visible");
       cy.olBreadcrumbKreditaiKuponai().contains("Kreditai ir kuponai").should("be.visible");
@@ -59,7 +59,7 @@ beforeEach(() => {
       cy.buttonKreditaiKuponai().contains("APMOKĖTI").should("be.visible");
     });
 
-    it('TC 04.05. - The "PRIĖMIMO SKYRIAI" page is accessible from the "hamburger" menu', () => {
+    it('TC 03.05. - The "PRIĖMIMO SKYRIAI" page is accessible from the "hamburger" menu', () => {
       cy.clickOnPriemimoSkyriaiFromHamburger();
       cy.olBreadcrumbPriemimoSkyriai().contains('PAULINI').should('be.visible');
       cy.olBreadcrumbPriemimoSkyriai().contains('Priėmimo skyriai').should('be.visible');
@@ -70,20 +70,20 @@ beforeEach(() => {
       // cy.storeCityLocationsOfPriemimoSkyrius().eq(1).contains("Vilniaus g. 44").should("be.visible");
     });
 
-    it('TC 04.06. - The "APIE MUS" page is accessible from the "hamburger" menu', () => {
+    it('TC 03.06. - The "APIE MUS" page is accessible from the "hamburger" menu', () => {
       cy.clickOnApieMusFromHamburger();
       cy.olBreadcrumbApieMus().eq(0).contains("PAULINI").should("be.visible");
       cy.olBreadcrumbApieMus().eq(2).contains("Apie mus").should("be.visible");
       cy.descriptionApieMus().eq(0).contains("Mūsų Misija").should("be.visible");
     });
 
-    it('TC 04.07. - The "PASIEKIMAI" page is accessible from the "hamburger" menu', () => {
+    it('TC 03.07. - The "PASIEKIMAI" page is accessible from the "hamburger" menu', () => {
       cy.clickOnPasiekimaiFromHamburger();
       cy.olBreadcrumbPasiekimai().contains("PAULINI").should("be.visible");
       cy.olBreadcrumbPasiekimai().contains("Pasiekimai").should("be.visible");
     });
 
-    it('TC 04.08. - The "PARTNERIAI" page is accessible from the "hamburger" menu', () => {
+    it('TC 03.08. - The "PARTNERIAI" page is accessible from the "hamburger" menu', () => {
       cy.clickOnPartneriaiFromHamburger();
       cy.olBreadcrumbPartneriai().contains("PAULINI").should("be.visible");
       cy.olBreadcrumbPartneriai().contains("Partneriai").should("be.visible");
@@ -93,20 +93,20 @@ beforeEach(() => {
       cy.partnerOfPaulini().eq(3).should("have.attr", "alt", "SUITSUPPLY");
     });
 
-    it('TC 04.09. - The "KLAUSKITE?" page is accessible from the "hamburger" menu', () => {
+    it('TC 03.09. - The "KLAUSKITE?" page is accessible from the "hamburger" menu', () => {
       cy.clickOnKlauskiteFromHamburger();
       cy.olBreadcrumbKlauskite().contains("PAULINI").should("be.visible");
       cy.olBreadcrumbKlauskite().contains("Turite klausimų?").should("be.visible");
     });
 
-    it('TC 04.10. - The "TAISYKLĖS" page is accessible from the "hamburger" menu', () => {
+    it('TC 03.10. - The "TAISYKLĖS" page is accessible from the "hamburger" menu', () => {
       cy.cliclOnTaisyklesFromHamburger();
       cy.olBreadcrumbTaisykles().contains("PAULINI").should("be.visible");
       cy.olBreadcrumbTaisykles().contains("Taisyklės").should("be.visible");
       cy.ruleListNameOfTaisykles().contains("DRABUŽIŲ VALYMO").should("be.visible");
     });
 
-    it('TC 04.11. - The "PRIVATUMO POLITIKA" page is accessible from the "hamburger" menu', () => {
+    it('TC 03.11. - The "PRIVATUMO POLITIKA" page is accessible from the "hamburger" menu', () => {
       cy.clickOnPrivatumoPolitika();
       cy.olBreadcrumbPrivatumoPolitika().eq(0).contains("PAULINI").should("be.visible");
       cy.olBreadcrumbPrivatumoPolitika().eq(2).contains("Privatumo politika").should("be.visible");

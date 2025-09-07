@@ -2,12 +2,12 @@
 
 ## **Documentation**
 
-## **TS 02. Login**
+## **TS 01. Login**
 
 ##  Login positive tests
 
 
-### 🧪✅  **TC 02.01. - Positive: login with email from main page**
+### 🧪✅  **TC 01.01. - Positive: login with email from main page**
 
 - **Environment:**  `Windows 11`, `Chrome v139.0.7258.139 (64-bit)`
 - **Pre-requisite:** Open the website `https://paulini.lt/` in a web browser
@@ -31,7 +31,7 @@
 - Top-left corner of the page shows: `Aidas`
 
 
-### 🧪✅ **TC 02.02. - Positive: login with phone number from main page**
+### 🧪✅ **TC 01.02. - Positive: login with phone number from main page**
 
 - **Environment:** `Windows 11`, `Chrome v139.0.7258.139 (64-bit)`
 - **Pre-requisite:** Open the website `https://paulini.lt/` in a web browser
@@ -54,7 +54,7 @@
 - Top-left corner of the page shows: `Aidas`
 
 
-### 🧪✅ **TC 02.03. - Positive: login from header**
+### 🧪✅ **TC 01.03. - Positive: login from header**
 
 - **Environment:** `Windows 11`, `Chrome v139.0.7258.139 (64-bit)`
 - **Pre-requisite:** Open the website `https://paulini.lt/` in a web browser
@@ -75,7 +75,7 @@
 - The `PRISIJUNGTI` action button is visible and functional
 
 
-### 🧪✅ **TC 02.04. - Positive: login from hamburger menu**
+### 🧪✅ **TC 01.04. - Positive: login from hamburger menu**
 
 - **Environment:** `Windows 11`, `Chrome v139.0.7258.139 (64-bit)`
 - **Pre-requisite:** Open the website `https://paulini.lt/` in a web browser
@@ -100,7 +100,7 @@
 
 ## 👍 Login negative tests
 
-### 🧪✅ **TC 02.08. - Negative: login when email without "@" symbol**
+### 🧪✅ **TC 01.05. - Negative: login when email without "@" symbol**
 
 - **Environment:** `Windows 11`, `Chrome v139.0.7258.139 (64-bit)`
 - **Pre-requisite:** Open the website `https://paulini.lt/` in a web browser
@@ -120,7 +120,7 @@
 `Neteisingi prisijungimo duomenys`
 
 
-### 🧪✅ **TC 02.09. - Negative: login fails with invalid phone number**
+### 🧪✅ **TC 01.06. - Negative: login fails with invalid phone number**
 
 - **Environment:** `Windows 11`, `Chrome v139.0.7258.139 (64-bit)`
 - **Pre-requisite:** Open the website `https://paulini.lt/` in a web browser
@@ -140,7 +140,7 @@
 `Neteisingi prisijungimo duomenys`
 
 
-### 🧪✅ **TC 02.10. - Negative: login fails with invalid password**
+### 🧪✅ **TC 01.07. - Negative: login fails with invalid password**
 
 - **Environment:** `Windows 11`, `Chrome v139.0.7258.139 (64-bit)`
 - **Pre-requisite:** Open the website `https://paulini.lt/` in a web browser
@@ -160,16 +160,16 @@
 `Neteisingi prisijungimo duomenys`
 
 
-## **TS 03. Navigation Menu**
+## **TS 02. Navigation Menu**
 
 
-### 🧪✅ **TC 03.01. - Page "PRIĖMIMO SKYRIAI" is visible and accessible from main page**
+### 🧪✅ **TC 02.01. - Page "PRIĖMIMO SKYRIAI" is visible and accessible from main page**
 
 - **Environment:** `Windows 11`, `Chrome v139.0.7258.139 (64-bit)`
 - **Pre-requisite:** Open the website `https://paulini.lt/` in a web browser
-- **Preconditions:**
+<!-- - **Preconditions:**
 - I am logged into my account. 
-- The text `Aidas 0.00 €` is visible in the top-left corner, confirming a successful login
+- The text `Aidas 0.00 €` is visible in the top-left corner, confirming a successful login -->
 
 📝- **Test Steps:** 
   1. Click on the `PRIĖMIMO SKYRIAI` menu item
@@ -180,16 +180,16 @@
   - The `PRIĖMIMO SKYRIAI` page opens
   - A list of all admission departments is displayed
   - The breadcrumb `PAULINI > PRIĖMIMO SKYRIAI` appears above the list on the left side
-  - The `PRIĖMIMO SKYRIAI` menu item is underlined
+  <!-- - The `PRIĖMIMO SKYRIAI` menu item is underlined -->
 
 
-### 🧪✅ **TC 03.02. - Page "AKCIJOS IR NAUJIENOS" is visible and accessible from main page**
+### 🧪✅ **TC 02.02. - Page "AKCIJOS IR NAUJIENOS" is visible and accessible from main page**
 
 - **Environment:** `Windows 11`, `Chrome v139.0.7258.139 (64-bit)`
 - **Pre-requisite:** Open the website `https://paulini.lt/` in a web browser
-- **Preconditions:**
+<!-- - **Preconditions:**
 - I am logged into my account. 
-- The text `Aidas 0.00 €` is visible in the top-left corner, confirming a successful login
+- The text `Aidas 0.00 €` is visible in the top-left corner, confirming a successful login -->
 
 📝- **Test Steps:**
   1. Click on the `AKCIJOS IR NAUJIENOS` menu item
@@ -199,16 +199,16 @@
 - The user is successfully redirected to `https://paulini.lt/akcijos-ir-naujienos`
 - the top-left corner of the page shows the breadcrumb `PAULINI > AKCIJOS IR NAUJIENOS` 
 - The page shows offers where each includes a title, short description, and optionally an image or expiration date
-- The `AKCIJOS IR NAUJIENOS` menu item is underlined
+<!-- - The `AKCIJOS IR NAUJIENOS` menu item is underlined -->
 
 
-### 🧪✅ **TC 03.03. - Page "APIE MUS" is visible and accessible from main page** 
+### 🧪✅ **TC 02.03. - Page "APIE MUS" is visible and accessible from main page** 
 
 - **Environment:** `Windows 11`, `Chrome v139.0.7258.139 (64-bit)`
 - **Pre-requisite:** Open the website `https://paulini.lt/` in a web browser
-- **Preconditions:**
+<!-- - **Preconditions:**
 - I am logged into my account. 
-- The text `Aidas 0.00 €` is visible in the top-left corner, confirming a successful login
+- The text `Aidas 0.00 €` is visible in the top-left corner, confirming a successful login -->
 
 📝- **Test Steps:**
   1. Click on `APIE MUS` menu item
@@ -219,17 +219,17 @@
 - The page describe everything about `PAULINI` with a short introduction
 - Contact information includes email, phone number, and address
 - The breadcrumb `PAULINI > APIE MUS` appears above the describe on the left side
-- The `APIE MUS` menu item is underlined
+<!-- - The `APIE MUS` menu item is underlined -->
 
 
-### 🧪✅ **TC 03.04. - Page "AKCIJOS IR NAUJIENOS" is visible and accessible from "PRIĖMIMO SKYRIAI" page** 
+### 🧪✅ **TC 02.04. - Page "AKCIJOS IR NAUJIENOS" is visible and accessible from "PRIĖMIMO SKYRIAI" page** 
 
 - **Environment:** `Windows 11`, `Chrome v139.0.7258.139 (64-bit)`
 - **Pre-requisite:** Open the website `https://paulini.lt/` in a web browser
 - **Preconditions:**
-- I am logged into my account. 
 - I am connected to `https://paulini.lt/priemimo-skyriai`
-- The text `Aidas 0.00 €` is visible in the top-left corner, confirming a successful loginn
+<!-- - I am logged into my account. 
+- The text `Aidas 0.00 €` is visible in the top-left corner, confirming a successful loginn -->
 
 📝- **Test Steps:**
   1. Click on the `AKCIJOS IR NAUJIENOS` menu item
@@ -239,17 +239,17 @@
 - The user is successfully redirected to `https://paulini.lt/akcijos-ir-naujienos`
 - The top-left corner of the page shows the breadcrumb `PAULINI > AKCIJOS IR NAUJIENOS` 
 - The page shows offers where each includes a title, short description, and optionally an image or expiration date
-- The `AKCIJOS IR NAUJIENOS` menu item is underlined
+<!-- - The `AKCIJOS IR NAUJIENOS` menu item is underlined -->
 
 
-### 🧪✅ **TC 03.05. - Page "APIE MUS" is visible and accessible from "PRIĖMIMO SKYRIAI" page** 
+### 🧪✅ **TC 02.05. - Page "APIE MUS" is visible and accessible from "PRIĖMIMO SKYRIAI" page** 
 
 - **Environment:** `Windows 11`, `Chrome v139.0.7258.139 (64-bit)`
 - **Pre-requisite:** Open the website `https://paulini.lt/` in a web browser
 - **Preconditions:**
-- I am logged into my account. 
 - I am connected to `https://paulini.lt/priemimo-skyriai`
-- The text `Aidas 0.00 €` is visible in the top-left corner, confirming a successful login
+<!-- - I am logged into my account. 
+- The text `Aidas 0.00 €` is visible in the top-left corner, confirming a successful login -->
 
 📝- **Test Steps:**
   1. Click on the `APIE MUS` menu item
@@ -260,17 +260,17 @@
 - The page describe everything about `PAULINI` with a short introduction
 - Contact information includes email, phone number, and address
 - The breadcrumb `PAULINI > APIE MUS` appears above the describe on the left side
-- The `APIE MUS` menu item is underlined
+<!-- - The `APIE MUS` menu item is underlined -->
 
 
-### 🧪✅ **TC 03.06. - Page "PRIĖMIMO SKYRIAI" is visible and accessible from "AKCIJOS IR NAUJIENOS" page**
+### 🧪✅ **TC 02.06. - Page "PRIĖMIMO SKYRIAI" is visible and accessible from "AKCIJOS IR NAUJIENOS" page**
 
 - **Environment:** `Windows 11`, `Chrome v139.0.7258.139 (64-bit)`
 - **Pre-requisite:** Open the website `https://paulini.lt/` in a web browser
 - **Preconditions:**
-- I am logged into my account. 
 - I am connected to `https://paulini.lt/akcijos-ir-naujienos`
-- The text `Aidas 0.00 €` is visible in the top-left corner, confirming a successful login
+<!-- - I am logged into my account. 
+- The text `Aidas 0.00 €` is visible in the top-left corner, confirming a successful login -->
 
 📝- **Test Steps:** 
   1. Click on the `PRIĖMIMO SKYRIAI` menu item
@@ -281,17 +281,17 @@
   - The `PRIĖMIMO SKYRIAI` page opens
   - A list of all admission departments is displayed
   - The breadcrumb `PAULINI > PRIĖMIMO SKYRIAI` appears above the list on the left side
-  - The `PRIĖMIMO SKYRIAI` menu item is underlined
+  <!-- - The `PRIĖMIMO SKYRIAI` menu item is underlined -->
 
 
-### 🧪✅ **TC 03.07. - Page "APIE MUS" is visible and accessible from "AKCIJOS IR NAUJIENOS" page** 
+### 🧪✅ **TC 02.07. - Page "APIE MUS" is visible and accessible from "AKCIJOS IR NAUJIENOS" page** 
 
   - **Environment:** `Windows 11`, `Chrome v139.0.7258.139 (64-bit)`
   - **Pre-requisite:** Open the website `https://paulini.lt/` in a web browser
   - **Preconditions:**
-  - I am logged into my account. 
   - I am connected to `https://paulini.lt/akcijos-ir-naujienos`
-  - The text `Aidas 0.00 €` is visible in the top-left corner, confirming a successful login
+  <!-- - I am logged into my account. 
+  - The text `Aidas 0.00 €` is visible in the top-left corner, confirming a successful login -->
 
 📝- **Test Steps:**
   1. Click on the `APIE MUS` menu item
@@ -302,17 +302,17 @@
 - The page describe everything about `PAULINI` with a short introduction
 - Contact information includes email, phone number, and address
 - The breadcrumb `PAULINI > APIE MUS` appears above the describe on the left side
-- The `APIE MUS` menu item is underlined
+<!-- - The `APIE MUS` menu item is underlined -->
 
 
-### 🧪✅ **TC 03.08. - Page "PRIĖMIMO SKYRIAI" is visible and accessible from "APIE MUS" page**
+### 🧪✅ **TC 02.08. - Page "PRIĖMIMO SKYRIAI" is visible and accessible from "APIE MUS" page**
 
 - **Environment:** `Windows 11`, `Chrome v139.0.7258.139 (64-bit)`
 - **Pre-requisite:** Open the website `https://paulini.lt/` in a web browser
 - **Preconditions:**
-- I am logged into my account. 
 - I am connected to `https://paulini.lt/apie-mus`
-- The text `Aidas 0.00 €` is visible in the top-left corner, confirming a successful login
+<!-- - I am logged into my account. 
+- The text `Aidas 0.00 €` is visible in the top-left corner, confirming a successful login -->
 
 📝- **Test Steps:** 
   1. Click on the `PRIĖMIMO SKYRIAI` menu item
@@ -323,16 +323,16 @@
   - The `PRIĖMIMO SKYRIAI` page opens
   - A list of all admission departments is displayed
   - The breadcrumb `PAULINI > PRIĖMIMO SKYRIAI` appears above the list on the left side
-  - The `PRIĖMIMO SKYRIAI` menu item is underlined
+  <!-- - The `PRIĖMIMO SKYRIAI` menu item is underlined -->
 
 
-### 🧪✅ **TC 03.09. - Page "AKCIJOS IR NAUJIENOS" is visible and accessible from "APIE MUS" page** 
+### 🧪✅ **TC 02.09. - Page "AKCIJOS IR NAUJIENOS" is visible and accessible from "APIE MUS" page** 
 
 - **Environment:** `Windows 11`, `Chrome v139.0.7258.139 (64-bit)`
 - **Pre-requisite:** Open the website `https://paulini.lt/` in a web browser
 - **Preconditions:**
-- I am logged into my account. 
 - I am connected to `https://paulini.lt/apie-mus`
+- I am logged into my account. 
 - The text `Aidas 0.00 €` is visible in the top-left corner, confirming a successful login
 
 📝- **Test Steps:**
@@ -343,16 +343,16 @@
 - The user is successfully redirected to `https://paulini.lt/akcijos-ir-naujienos`
 - the top-left corner of the page shows the breadcrumb `PAULINI > AKCIJOS IR NAUJIENOS` 
 - The page shows offers where each includes a title, short description, and optionally an image or expiration date
-- The `AKCIJOS IR NAUJIENOS` menu item is underlined
+<!-- - The `AKCIJOS IR NAUJIENOS` menu item is underlined -->
 
 
-## **TS 04. Hamburger Menu**
+## **TS 03. Hamburger Menu**
 
 
 ## When the user is not logged in
 
 
-### 🧪✅ **TC 04.01. - Registration is possible from the "hamburger" menu**
+### 🧪✅ **TC 03.01. - Registration is possible from the "hamburger" menu**
 
 - **Environment:** `Windows 11`, `Chrome v139.0.7258.139 (64-bit)`
 - **Pre-requisite:** Open the website `https://paulini.lt/` in a web browser
@@ -374,7 +374,7 @@
 - A button labeled `PATVIRTINTI REGISTRACIJĄ` is visible
 
 
-### 🧪✅ **TC 04.02. - The "AKCIJOS IR NAUJIENOS" page is accessible from the "hamburger" menu**
+### 🧪✅ **TC 03.02. - The "AKCIJOS IR NAUJIENOS" page is accessible from the "hamburger" menu**
 
 - **Environment:** `Windows 11`, `Chrome v139.0.7258.139 (64-bit)`
 - **Pre-requisite:** Open the website `https://paulini.lt/` in a web browser
@@ -395,7 +395,7 @@
 - The `AKCIJOS IR NAUJIENOS` menu item is underlined
 
 
-### 🧪✅ **TC 04.03. - The "PASLAUGOS IR PREKĖS" page is accessible from the "hamburger" menu**
+### 🧪✅ **TC 03.03. - The "PASLAUGOS IR PREKĖS" page is accessible from the "hamburger" menu**
 
 - **Environment:** `Windows 11`, `Chrome v139.0.7258.139 (64-bit)`
 - **Pre-requisite:** Open the website `https://paulini.lt/` in a web browser
@@ -415,7 +415,7 @@
 - The breadcrumb `PAULINI > PREKĖS IR PASLAUGOS` appears above the list on the left side
 
 
-### 🧪✅ **TC 04.04. - The "KREDITAI IR KUPONAI" page is accessible from the "hamburger" menu**
+### 🧪✅ **TC 03.04. - The "KREDITAI IR KUPONAI" page is accessible from the "hamburger" menu**
 
 - **Environment:** `Windows 11`, `Chrome v139.0.7258.139 (64-bit)`
 - **Pre-requisite:** Open the website `https://paulini.lt/` in a web browser
@@ -435,7 +435,7 @@
 - The page displays a list of coupons with credits
 
 
-### 🧪✅ **TC 04.05. - The "PRIĖMIMO SKYRIAI" page is accessible from the "hamburger" menu**
+### 🧪✅ **TC 03.05. - The "PRIĖMIMO SKYRIAI" page is accessible from the "hamburger" menu**
 
 - **Environment:** `Windows 11`, `Chrome v139.0.7258.139 (64-bit)`
 - **Pre-requisite:** Open the website `https://paulini.lt/` in a web browser
@@ -457,7 +457,7 @@
   - The `PRIĖMIMO SKYRIAI` menu item is underlined
 
 
-### 🧪✅ **TC 04.06. - The "APIE MUS" page is accessible from the "hamburger" menu**
+### 🧪✅ **TC 03.06. - The "APIE MUS" page is accessible from the "hamburger" menu**
 
 - **Environment:** `Windows 11`, `Chrome v139.0.7258.139 (64-bit)`
 - **Pre-requisite:** Open the website `https://paulini.lt/` in a web browser
@@ -479,7 +479,7 @@
 - The `APIE MUS` menu item is underlined
 
 
-### 🧪✅ **TC 04.07. - The "PASIEKIMAI" page is accessible from the "hamburger" menu**
+### 🧪✅ **TC 03.07. - The "PASIEKIMAI" page is accessible from the "hamburger" menu**
 
 - **Environment:** `Windows 11`, `Chrome v139.0.7258.139 (64-bit)`
 - **Pre-requisite:** Open the website `https://paulini.lt/` in a web browser
@@ -499,7 +499,7 @@
 - The breadcrumb `PAULINI > PASIEKIMAI` appears above the list on the left side
 
 
-### 🧪✅ **TC 04.08. - The "PARTNERIAI" page is accessible from the "hamburger" menu**
+### 🧪✅ **TC 03.08. - The "PARTNERIAI" page is accessible from the "hamburger" menu**
 
 - **Environment:** `Windows 11`, `Chrome v139.0.7258.139 (64-bit)`
 - **Pre-requisite:** Open the website `https://paulini.lt/` in a web browser
@@ -519,7 +519,7 @@
 - The breadcrumb `PAULINI > PARTNERIAI` appears above the list on the left side
 
 
-### 🧪✅ **TC 04.09. - The "KLAUSKITE?" page is accessible from the "hamburger" menu**
+### 🧪✅ **TC 03.09. - The "KLAUSKITE?" page is accessible from the "hamburger" menu**
 
 - **Environment:** `Windows 11`, `Chrome v139.0.7258.139 (64-bit)`
 - **Pre-requisite:** Open the website `https://paulini.lt/` in a web browser
@@ -540,7 +540,7 @@
 - The breadcrumb `PAULINI > TURITE KLAUSIMŲ?` appears above the list on the left side
 
 
-### 🧪✅ **TC 04.10. - The "TAISYKLĖS" page is accessible from the "hamburger" menu**
+### 🧪✅ **TC 03.10. - The "TAISYKLĖS" page is accessible from the "hamburger" menu**
 
 - **Environment:** `Windows 11`, `Chrome v139.0.7258.139 (64-bit)`
 - **Pre-requisite:** Open the website `https://paulini.lt/` in a web browser
@@ -560,7 +560,7 @@
 - The breadcrumb `PAULINI > TAISYKLĖS` appears above the list on the left side
 
 
-### 🧪✅ **TC 04.11. - The "PRIVATUMO POLITIKA" page is accessible from the "hamburger" menu**
+### 🧪✅ **TC 03.11. - The "PRIVATUMO POLITIKA" page is accessible from the "hamburger" menu**
 
 - **Environment:** `Windows 11`, `Chrome v139.0.7258.139 (64-bit)`
 - **Pre-requisite:** Open the website `https://paulini.lt/` in a web browser
@@ -580,7 +580,7 @@
 - The breadcrumb `PAULINI > PRIVATUMO POLITIKA` appears above the list on the left side
 
 
-### 🧪✅ **TC 04.12. - The QR code from the "hamburger" menu**
+### 🧪✅ **TC 03.12. - The QR code from the "hamburger" menu**
 
 - **Environment:** `Windows 11`, `Chrome v139.0.7258.139 (64-bit)`
 - **Pre-requisite:** Open the website `https://paulini.lt/` in a web browser
@@ -600,7 +600,7 @@
 
 ## logged in user hamburger menu
 
-### 🧪✅ [**TC 04.13. - Verify that the page displays order history if available**](hamburgerImg/hamburgeriopasirinkimas0413.jpg)
+### 🧪✅ [**TC 03.13. - Verify that the page displays order history if available**](/pictures/hamburgerImg/hamburgeriopasirinkimas0413.jpg)
 
 - **Environment:** `Windows 11`, `Chrome v139.0.7258.139 (64-bit)`
 - **Pre-requisite:** Open the website `https://paulini.lt/` in a web browser
@@ -619,7 +619,7 @@
 - The breadcrumb `PAULINI > TAISYKLĖS` appears above the list on the left side
 
 
-### 🧪✅ **TC 04.14 - Access to Cart via Hamburger Menu**
+### 🧪✅ **TC 03.14 - Access to Cart via Hamburger Menu**
 
 - **Environment:** `Windows 11`, `Chrome v139.0.7258.139 (64-bit)`
 - **Pre-requisite:** Open the website `https://paulini.lt/` in a web browser
@@ -640,7 +640,7 @@
 - The breadcrumb `PAULINI > KREPŠELIS` appears cart information
 
 
-### 🧪✅ **TC 04.15 - Verify functionality of the Account Settings page**
+### 🧪✅ **TC 03.15 - Verify functionality of the Account Settings page**
 
 - **Environment:** `Windows 11`, `Chrome v139.0.7258.139 (64-bit)`
 - **Pre-requisite:** Open the website `https://paulini.lt/` in a web browser
