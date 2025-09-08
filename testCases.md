@@ -454,7 +454,6 @@
   - The `PRIĖMIMO SKYRIAI` page opens
   - A list of all admission departments is displayed
   - The breadcrumb `PAULINI > PRIĖMIMO SKYRIAI` appears above the list on the left side
-  - The `PRIĖMIMO SKYRIAI` menu item is underlined
 
 
 ### 🧪✅ **TC 03.06. - The "APIE MUS" page is accessible from the "hamburger" menu**

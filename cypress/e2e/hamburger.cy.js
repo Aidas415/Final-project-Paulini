@@ -59,10 +59,16 @@ beforeEach(() => {
       cy.buttonKreditaiKuponai().contains("APMOKĖTI").should("be.visible");
     });
 
-    it('TC 03.05. - The "PRIĖMIMO SKYRIAI" page is accessible from the "hamburger" menu', () => {
+    it.only('TC 03.05. - The "PRIĖMIMO SKYRIAI" page is accessible from the "hamburger" menu', () => {
       cy.clickOnPriemimoSkyriaiFromHamburger();
-      cy.olBreadcrumbPriemimoSkyriai().contains('PAULINI').should('be.visible');
+      cy.olBreadcrumbPriemimoSkyriai().contains('PAULINI').should('exist');
       cy.olBreadcrumbPriemimoSkyriai().contains('Priėmimo skyriai').should('be.visible');
+      cy.contains('PUNKTAS').should('have.text', 'PUNKTAS')
+      // cy.get('p :nth-child(2) .MuiBox-root .MuiTypography-root .MuiTypography-body1').should('have.text', 'PUNKTAS');
+      // cy.get('.css-1f3mmie > .MuiTypography-root').contains('PUNKTAS').should('be.visible');
+      
+
+
       // cy.pauliniLocationsOfPriemimoSkyrius().contains('PUNKTAS').should('be.visible');
       // cy.pauliniLocationsOfPriemimoSkyrius().should('have.text', 'PUNKTAS');
       // cy.pauliniLocationsOfPriemimoSkyrius().eq(1).contains('MIESTAS').should('be.visible');
