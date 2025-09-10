@@ -73,6 +73,9 @@ You can view the test results directly in the Actions tab of your GitHub reposit
 │   │   └── 📄 example.json
 │   └── 📁 support
 │       ├── 📄 commands.js
+│       ├── 📄 loginCommands.js
+│       ├── 📄 navigationCommands.js
+│       ├── 📄 hamburgerCommands.js
 │       └── 📄 e2e.js
 ├── 🖼️ pictures
 │   ├── 📁📷 hamburgerImg

@@ -163,13 +163,10 @@
 ## **TS 02. Navigation Menu**
 
 
-### 🧪✅ **TC 02.01. - Page "PRIĖMIMO SKYRIAI" is visible and accessible from main page**
+### 🧪✅ [**TC 02.01. - Page "PRIĖMIMO SKYRIAI" is visible and accessible from main page**](/pictures/navigatioImg/tc0301/general_priemimo_skyriai.0301.png)
 
 - **Environment:** `Windows 11`, `Chrome v139.0.7258.139 (64-bit)`
 - **Pre-requisite:** Open the website `https://paulini.lt/` in a web browser
-<!-- - **Preconditions:**
-- I am logged into my account. 
-- The text `Aidas 0.00 €` is visible in the top-left corner, confirming a successful login -->
 
 📝- **Test Steps:** 
   1. Click on the `PRIĖMIMO SKYRIAI` menu item
@@ -180,7 +177,7 @@
   - The `PRIĖMIMO SKYRIAI` page opens
   - A list of all admission departments is displayed
   - The breadcrumb `PAULINI > PRIĖMIMO SKYRIAI` appears above the list on the left side
-  <!-- - The `PRIĖMIMO SKYRIAI` menu item is underlined -->
+  - The `PRIĖMIMO SKYRIAI` menu item is underlined
 
 
 ### 🧪✅ **TC 02.02. - Page "AKCIJOS IR NAUJIENOS" is visible and accessible from main page**
