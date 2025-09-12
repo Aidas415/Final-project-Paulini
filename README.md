@@ -53,11 +53,11 @@ You can view the test results directly in the Actions tab of your GitHub reposit
 
 ## 🧩 Project Structure
 
-### Ikonų reikšmės
-- 📁 – katalogas
-- 📄 – failas
-- 📁📷 – katalogas su ekrano nuotraukomis
-- 🖼️ – pagrindinis vaizdų katalogas
+### Icon meanings
+- 📁 –  folder
+- 📄 – file
+- 📁📷 –  folder containing screenshots
+- 🖼️ – main image directory
 
 ```
 ├── 📁 .github\workflows

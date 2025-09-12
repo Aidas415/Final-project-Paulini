@@ -9,5 +9,5 @@ Cypress.Commands.add('checkUrlOfPage', (endpoint) => {
 });
 
 Cypress.Commands.add('clickNavLink', (label) => {
-    cy.get('nav').contains(label).click({ force: true });
+    cy.contains(label).click({ force: true });
 }); 
