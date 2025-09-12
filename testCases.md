@@ -18,17 +18,15 @@
 - Only non-sensitive data (name and email) will be disclosed in this test case; password and full phone number are masked
 
 📝- **Test Steps:**
-  1. Click on the `Tel.numeris/El.paštas` field
-  2. Enter email: `aidasambotas@gmail.com`
-  3. Click on the `Slaptažodis` field
-  4. Enter password: ********
-  5. Click on the `Prisijungti` button
-  6. Observe the result
+  1. Enter correct email
+  2. Enter correct password
+  3. Click on the `Prisijungti` button
+  4. Observe the result
 
 🎯- **Expected Result:** 
 - The user is successfully logged in
 - No popup message is displayed
-- Top-left corner of the page shows: `Aidas`
+- Top-left corner of the page shows: `DISPLAY_NAME`
 
 
 ### 🧪✅ **TC 01.02. - Positive: login with phone number from main page**
@@ -41,17 +39,15 @@
 - Only non-sensitive data (name and email) will be disclosed in this test case; password and full phone number are masked
 
 📝- **Test Steps:**
-  1. Click on the `Tel.numeris/El.paštas` field
-  2. Enter phone number: `+3706531...8`
-  3. Click on the `Slaptažodis` field
-  4. Enter password: `*********`
-  5. Click on the `Prisijungti` button
-  6. Observe the result
+  1. Enter correct phone number
+  2. Enter correct password
+  3. Click on the `Prisijungti` button
+  4. Observe the result
 
 🎯- **Expected Result:** 
 - The user is successfully logged in
 - No popup message is displayed
-- Top-left corner of the page shows: `Aidas`
+- Top-left corner of the page shows: `DISPLAY_NAME`
 
 
 ### 🧪✅ **TC 01.03. - Positive: login from header**
@@ -107,12 +103,10 @@
 - **Preconditions:** The user must access the homepage without being signed in
 
 📝- **Test Steps:**
-  1. Click on the "Tel.numeris/El.paštas" field
-  2. Enter email without `@` symbol: `aidasambotasgmail.com`
-  3. Click on the `Slaptažodis` field
-  4. Enter correct password: `*********`
-  5. Click on the `Prisijungti` button
-  6. Observe the result
+  1. Enter email without `@` symbol
+  2. Enter correct password
+  3. Click on the `Prisijungti` button
+  4. Observe the result
 
 🎯- **Expected Result:** 
 - The system does not log the user in.  

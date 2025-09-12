@@ -8,6 +8,6 @@ Cypress.Commands.add('checkUrlOfPage', (endpoint) => {
     cy.url().should('include', endpoint);
 });
 
-Cypress.Commands.add('clickNavLink', (page) => {
-    cy.contains(page).click({ force: true });
+Cypress.Commands.add('clickNavLink', (label) => {
+    cy.get('nav').contains(label).click({ force: true });
 }); 

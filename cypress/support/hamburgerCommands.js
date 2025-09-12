@@ -3,38 +3,13 @@ Cypress.Commands.add("acceptCookies", () => {
   cy.get('.MuiSnackbarContent-action > .MuiGrid-container > :nth-child(3) > :nth-child(1)').click();
 });
 
-Cypress.Commands.add("loginForm", () => {
-  cy.get(".css-js8cyh > :nth-child(2)");
-});
 
-Cypress.Commands.add('prisijungtiButtonOnHeader', () => {
-    cy.get(".MuiTypography-inherit > .MuiTypography-root");
-});
-
-Cypress.Commands.add("loginButtonInHamburger", () => {
-  cy.get(":nth-child(1) > .MuiListItemText-root > .MuiTypography-root").click();
-});
 
 Cypress.Commands.add("clickOnHamburgerMenu", () => {
 //   cy.get('.MuiSnackbarContent-action > .MuiGrid-container > :nth-child(3) > :nth-child(1)').click();
   cy.get('svg[data-testid="MenuIcon"]').click();
 });
 
-Cypress.Commands.add('loginPhoneNmbEmailField', () => {
-    cy.get('input[name="loginName"]').click();
-});
-
-Cypress.Commands.add('loginPasswordField', () => {
-    cy.get('input[name="password"]').click();
-});
-
-Cypress.Commands.add('loginButtonPrisijungti', () => {
-    cy.get("button.MuiLoadingButton-root");
-});
-
-Cypress.Commands.add('userNameOnPage', () => {
-    cy.get(".css-5ff4ol")
-});
 
 Cypress.Commands.add('falseDataReport', () => {
     cy.get('div[class="MuiGrid-root MuiGrid-container MuiGrid-direction-xs-column css-28ln3p"]')
