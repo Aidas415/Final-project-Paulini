@@ -6,8 +6,8 @@ Cypress.Commands.add("clickHeaderLoginButton", () => {
   cy.get(".MuiTypography-inherit > .MuiTypography-root").click();
 });
 
-Cypress.Commands.add("loginButtonInHamburger", () => {
-  cy.get(":nth-child(1) > .MuiListItemText-root > .MuiTypography-root").click();
+Cypress.Commands.add("clickOnPrisijungtiFromHamburgerMenu", () => {
+    cy.get('.MuiDrawer-paper').contains('span', 'Prisijungti').click( {force: true });
 });
 
 Cypress.Commands.add("getLoginInputField", () => {

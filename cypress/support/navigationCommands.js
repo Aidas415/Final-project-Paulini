@@ -1,8 +1,21 @@
-Cypress.Commands.add('checkBreadcrumbOfPage', (page) => {
-        cy.get('.MuiBreadcrumbs-root')
-      .should('contain.text', 'PAULINI')
-      .and('contain.text', page);
+// Cypress.Commands.add('checkBreadcrumbOfPage', (expectedText) => {
+//         cy.get('.MuiBreadcrumbs-root')
+//       .should('contain.text', 'PAULINI')
+//       .and('contain.text', expectedText);
+// });
+
+Cypress.Commands.add('getBreadcrumbItems', () => {
+  return cy.get('.MuiBreadcrumbs-root ol li');
 });
+
+// Cypress.Commands.add('checkBreadcrumbOfPage', (expectedText) => {
+//   cy.get('.MuiBreadcrumbs-root')
+//     .should('contain.text', 'PAULINI')
+//     .find('span')
+//     .last()
+//     .should('contain.text', expectedText);
+// });
+
 
 Cypress.Commands.add('checkUrlOfPage', (endpoint) => {
     cy.url().should('include', endpoint);

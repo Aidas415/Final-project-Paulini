@@ -26,7 +26,7 @@ describe("TS 01. Login positive tests", () => {
   });
 
   it("TC 01.04. - Positive: login from hamburger menu", () => {
-    cy.clickOnHamburgerMenu();
+    cy.clickOnPrisijungtiFromHamburgerMenu();
     cy.loginForm().should("be.visible");
   });
 });
