@@ -1,6 +1,4 @@
 /// <reference types='cypress' />
-// / <reference types="cypress-xpath" />
-// require ( 'cypress-xpath' );
 
 describe("TS 02. From main page", () => {
   beforeEach(() => {

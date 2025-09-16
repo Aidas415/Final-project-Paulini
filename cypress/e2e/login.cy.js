@@ -6,14 +6,14 @@ beforeEach(() => {
 });
 
 describe("TS 01. Login positive tests", () => {
-  it("TC 02.01 - Positive: login with email from main page", () => {
+  it("TC 01.01 - Positive: login with email from main page", () => {
     cy.getLoginInputField().type(Cypress.env("USER_EMAIL"));
     cy.getPasswordInputField().type(Cypress.env("USER_PASSWORD"));
     cy.getLoginButton().should("be.visible").should("not.be.disabled").click();
     cy.getLoggedInUserName().should("contain", Cypress.env("DISPLAY_NAME"));
   });
 
-  it("TC 02.02. - Positive: login with phone number from main page", () => {
+  it("TC 01.02. - Positive: login with phone number from main page", () => {
     cy.getLoginInputField().type(Cypress.env("USER_PHONE_NUMBER"));
     cy.getPasswordInputField().type(Cypress.env("USER_PASSWORD"));
     cy.getLoginButton().should("not.be.disabled").click();
