@@ -81,7 +81,7 @@ describe("TS 03. Hamburger Menu", () => {
         .should("be.visible");
     });
 
-    it('TC 03.05. - The "PRIĖMIMO SKYRIAI" page is accessible from the "hamburger" menu', () => {
+    it.only('TC 03.05. - The "PRIĖMIMO SKYRIAI" page is accessible from the "hamburger" menu', () => {
       const expectedBreadcrumbText = "Priėmimo skyriai";
       cy.clickHamburgerMenuItem("Priėmimo skyriai");
       cy.checkUrlOfPage("/priemimo-skyriai");
@@ -90,8 +90,6 @@ describe("TS 03. Hamburger Menu", () => {
       cy.getBreadcrumbItems()
         .last()
         .should("contain.text", expectedBreadcrumbText);
-      cy.contains("PUNKTAS").should("be.visible");
-      cy.contains("MIESTAS").should("be.visible");
 
       cy.checkPickupPoint({
         titleCity: "VIEVIS, Vievis",

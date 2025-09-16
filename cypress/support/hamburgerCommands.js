@@ -45,9 +45,14 @@ Cypress.Commands.add("buttonApmokėtiKreditaiKuponai", () => {
 });
 
 Cypress.Commands.add('checkPickupPoint', ({ titleCity, address }) => {
-  return cy.contains(titleCity).parentsUntil('ul').last().within(() => {
-    cy.contains(titleCity).should('be.visible');
-    cy.contains(address).should('be.visible');
+  cy.contains(titleCity, { timeout: 10000 }).should('exist').then(($el) => {
+    cy.wrap($el)
+      .parentsUntil('ul')
+      .last()
+      .within(() => {
+        cy.contains(titleCity).should('be.visible');
+        cy.contains(address).should('be.visible');
+      });
   });
 });
 
