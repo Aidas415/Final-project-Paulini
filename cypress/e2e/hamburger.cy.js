@@ -223,7 +223,7 @@ describe("TS 03. Hamburger Menu", () => {
     it('TC 03.13. - The "J9SŲ KREPŠELIS" page is accessible from the "hamburger" menu as a logged-in user', () => {
       const expectedBreadcrumbText = "Krepšelis";
       cy.clickHamburgerMenuItem("Jūsų krepšelis");
-      cy.wait(1000);
+      cy.wait(4000);
       cy.checkUrlOfPage("/krepselis");
       cy.getBreadcrumbItems().should("have.length.at.least", 2);
       cy.getBreadcrumbItems().first().should("contain.text", "PAULINI");
@@ -235,7 +235,7 @@ describe("TS 03. Hamburger Menu", () => {
 
     it('TC 03.14. - The "PASKYROS NUSTATYMAI" page is accessible from the "hamburger" menu as a logged-in user', () => {
       const expectedBreadcrumbText = "Paskyros nustatymai";
-      cy.wait(1000);
+      cy.wait(4000);
       cy.clickHamburgerMenuItem("Paskyros nustatymai");
       cy.checkUrlOfPage("/paskyros-nustatymai");
       cy.getBreadcrumbItems().should("have.length.at.least", 2);
