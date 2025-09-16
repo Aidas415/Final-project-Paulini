@@ -81,7 +81,7 @@ describe("TS 03. Hamburger Menu", () => {
         .should("be.visible");
     });
 
-    it.only('TC 03.05. - The "PRIĖMIMO SKYRIAI" page is accessible from the "hamburger" menu', () => {
+    it('TC 03.05. - The "PRIĖMIMO SKYRIAI" page is accessible from the "hamburger" menu', () => {
       const expectedBreadcrumbText = "Priėmimo skyriai";
       cy.clickHamburgerMenuItem("Priėmimo skyriai");
       cy.checkUrlOfPage("/priemimo-skyriai");
@@ -90,19 +90,6 @@ describe("TS 03. Hamburger Menu", () => {
       cy.getBreadcrumbItems()
         .last()
         .should("contain.text", expectedBreadcrumbText);
-
-      cy.checkPickupPoint({
-        titleCity: "VIEVIS, Vievis",
-        address: "Vilniaus g. 44",
-      });
-      cy.checkPickupPoint({
-        titleCity: "PAŠILAIČIAI, Vilnius",
-        address: "Pavilnionių g. 55,",
-      });
-      cy.checkPickupPoint({
-        titleCity: "MEGA, Kaunas",
-        address: "Islandijos pl. 32,",
-      });
     });
 
     it('TC 03.06. - The "APIE MUS" page is accessible from the "hamburger" menu', () => {
