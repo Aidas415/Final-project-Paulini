@@ -220,7 +220,7 @@ describe("TS 03. Hamburger Menu", () => {
         .should("contain.text", expectedBreadcrumbText);
     });
 
-    it('TC 03.13. - The "J9SŲ KREPŠELIS" page is accessible from the "hamburger" menu as a logged-in user', () => {
+    it('TC 03.13. - The "JŪSŲ KREPŠELIS" page is accessible from the "hamburger" menu as a logged-in user', () => {
       const expectedBreadcrumbText = "Krepšelis";
       cy.clickHamburgerMenuItem("Jūsų krepšelis");
       cy.wait(4000);

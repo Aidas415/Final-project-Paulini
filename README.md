@@ -9,7 +9,7 @@ This project is designed to automate website testing using [Cypress](https://www
 - **CI/CD:** GitHub Actions
 - **Documentation:** Markdown files for scenario execution
 
-# 🚀 Getting Started
+## 🚀 Getting Started
 
 To run this project locally, follow these steps:
 
@@ -26,7 +26,7 @@ cd Final-project-Paulini
 npm install
 ```
 
-### 1. Run Cypress tests
+### 3. Run Cypress tests
 
 ```
 npx cypress open
@@ -41,6 +41,30 @@ TS 1. Login
 TS 2. Navigation menu
 TS 3. Hamburger menu
 ```
+
+## 🔐 Environment Variables
+
+Some test cases require sensitive user data, which must be provided via environment variables. These variables **must not be committed to version control** and should be configured locally or via CI/CD secrets.
+
+### Required Variables
+
+```env
+USER_EMAIL=your_test_email@example.com
+USER_PHONE_NUMBER=+37060000000
+USER_PASSWORD=your_secure_password
+DISPLAY_NAME=Test User
+```
+
+## 📌 Usage Scope
+
+These variables are only used in the following test scenarios:
+
+- **TS 01** - General user authentication tests
+- **TC 03.12** - Profile update with valid credentials
+- **TC 03.13** - Password change flow
+- **TC 03.14** - Display name verification
+
+> ⚠️ **Note:** If these variables are not set, the above test cases will fail or be skipped. Use mock/test accounts only.
 
 ## ▶️ ️ GitHub Actions
 This project uses GitHub Actions to automatically run Cypress tests on every push or pull request. The workflow file is located at

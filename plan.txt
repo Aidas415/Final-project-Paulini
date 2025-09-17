@@ -4,36 +4,32 @@ TS 1. Login
     TC 01.02. - Positive: login with phone number from main page
     TC 01.03. - Positive: login from header
     TC 01.04. - Positive: login from hamburger menu
-    TC 01.05. - Positive: login with Google
-    TC 01.06. - Positive: login with facebook
-    TC 01.07. - Positive: login with Apple
     Negative Login
-    TC 01.08. - Negative: login when email without "@" symbol
-    TC 01.09. - Negative: login fails with invalid phone number
-    TC 01.10. - Negative: login fails with invalid password
+    TC 01.05. - Negative: login when email without "@" symbol
+    TC 01.06. - Negative: login fails with invalid phone number
+    TC 01.07. - Negative: login fails with invalid password
 TS 2. Navigation menu
     TC 02.01. - Page "PRIĖMIMO SKYRIAI" is visible and accessible from main page
     TC 02.02. - Page "AKCIJOS IR NAUJIENOS" is visible and accessible from main page
     TC 02.03. - Page "APIE MUS" is visible and accessible from main page
     TC 02.04. - Page "AKCIJOS IR NAUJIENOS" is visible and accessible from "PRIĖMIMO SKYRIAI" page
     TC 02.05. - Page "APIE MUS" is visible and accessible from "PRIĖMIMO SKYRIAI" page
-    TC 32.06. - Page "PRIĖMIMO SKYRIAI" is visible and accessible from "AKCIJOS IR NAUJIENOS" page
+    TC 02.06. - Page "PRIĖMIMO SKYRIAI" is visible and accessible from "AKCIJOS IR NAUJIENOS" page
     TC 02.07. - Page "APIE MUS" is visible and accessible from "AKCIJOS IR NAUJIENOS" page
     TC 02.08. - Page "PRIĖMIMO SKYRIAI" is visible and accessible from "APIE MUS" page
     TC 02.09. - Page "AKCIJOS IR NAUJIENOS" is visible and accessible from "APIE MUS" page
 TS 3. Hamburger menu
-    TC 03.01. - Registration is possible from the Hamburger Menu
-    TC 03.02. - The "AKCIJOS IR NAUJIENOS" page is accessible from the Hamburger Menu
-    TC 03.03. - The "PASLAUGOS IR PREKĖS" page is accessible from the Hamburger Menu
-    TC 03.04. - The "KREDITAI IR KUPONAI" page is accessible from the Hamburger Menu
-    TC 03.05. - The "PRIĖMIMO SKYRIAI" page is accessible from the Hamburger Menu
-    TC 03.06. - The "APIE MUS" page is accessible from the Hamburger Menu
-    TC 03.07. - The "PASIEKIMAI" page is accessible from the Hamburger" Menu
-    TC 03.08. - The "PARTNERIAI" page is accessible from the Hamburger Menu
-    TC 03.09. - The "KLAUSKITE?" page is accessible from the Hamburge" Menu
-    TC 03.10. - The "TAISYKLĖS" page is accessible from the Hamburger Menu
-    TC 03.11. - The "PRIVATUMO POLITIKA" page is accessible from the Hamburger Menu
-    TC 03.12. - The QR code from the Hamburger Menu
-    TC 03.13. - Verify that the page displays order history if available
-    TC 03.14. - Access to Cart via Hamburger Menu
-    TC 03.15. - Verify functionality of the Account Settings page
+    TC 03.01. - Registration is possible from the "hamburger" menu
+    TC 03.02. - The "AKCIJOS IR NAUJIENOS" page is accessible from the "hamburger" menu
+    TC 03.03. - The "PASLAUGOS IR PREKĖS" page is accessible from the "hamburger" menu
+    TC 03.04. - The "KREDITAI IR KUPONAI" page is accessible from the "hamburger" menu
+    TC 03.05. - The "PRIĖMIMO SKYRIAI" page is accessible from the "hamburger" menu
+    TC 03.06. - The "APIE MUS" page is accessible from the "hamburger" menu
+    TC 03.07. - The "PASIEKIMAI" page is accessible from the "hamburger" menu
+    TC 03.08. - The "PARTNERIAI" page is accessible from the "hamburger" menu
+    TC 03.09. - The "KLAUSKITE?" page is accessible from the "hamburger" menu
+    TC 03.10. - The "TAISYKLĖS" page is accessible from the "hamburger" menu
+    TC 03.11. - The "PRIVATUMO POLITIKA" page is accessible from the "hamburger" menu
+    TC 03.12. - The "UŽSAKYMŲ ISTORIJA" page is accessible from the "hamburger" menu as a logged-in user
+    TC 03.13. - The "JŪSŲ KREPŠELIS" page is accessible from the "hamburger" menu as a logged-in user
+    TC 03.14. - The "PASKYROS NUSTATYMAI" page is accessible from the "hamburger" menu as a logged-in user
