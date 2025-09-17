@@ -132,11 +132,11 @@ describe("TS 03. Hamburger Menu", () => {
       cy.getBreadcrumbItems()
         .last()
         .should("contain.text", expectedBreadcrumbText);
-      cy.getBlockByTitle("Metų kartu").should("be.visible");
-      cy.getBlockByTitle("Išmaniųjų spintų").should("be.visible");
-      cy.getBlockByTitle("Priėmimo skyriai").should("be.visible");
-      cy.getBlockByTitle("Draugų").should("be.visible");
-      cy.getBlockByTitle("Išvalytų drabužių").should("be.visible");
+      cy.getBlockByTitle("Metų kartu").should("exist").and("be.visible");
+      cy.getBlockByTitle("Išmaniųjų spintų").should("exist").and("be.visible");
+      cy.getBlockByTitle("Priėmimo skyriai").should("exist").and("be.visible");
+      cy.getBlockByTitle("Draugų").should("exist").and("be.visible");
+      cy.getBlockByTitle("Išvalytų drabužių").should("exist").and("be.visible");
     });
 
     it('TC 03.08. - The "PARTNERIAI" page is accessible from the "hamburger" menu', () => {

@@ -36,11 +36,9 @@ npx cypress run
 
 ## 🧪 Test Scenarios
 
-```
-TS 1. Login
-TS 2. Navigation menu
-TS 3. Hamburger menu
-```
+- **TS 1.** Login
+- **TS 2.** Navigation menu
+- **TS 3.** Hamburger menu
 
 ## 🔐 Environment Variables
 
