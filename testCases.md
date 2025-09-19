@@ -54,7 +54,7 @@
 - Top-left corner of the page shows: `DISPLAY_NAME`
 
 
-### 🧪✅ [**TC 01.03. - Positive: login from header**](/pictures/loginImg/tc0103/login.form.png)
+### 🧪✅ [**TC 01.03. - Positive: login from header**](/pictures/loginImg/tc0103/login.from.header.png)
 
 - **Environment:** `Windows 11`, `Chrome v139.0.7258.139 (64-bit)`
 - **Pre-requisite:** 
@@ -314,7 +314,7 @@
 ## When the user is not logged in
 
 
-### 🧪✅ **TC 03.01. - Registration is possible from the "hamburger" menu**
+### 🧪✅ [**TC 03.01. - Registration is possible from the "hamburger" menu**](/pictures/hamburgerImg/tc0301/registracija_field_hamburger.png)
 
 - **Environment:** `Windows 11`, `Chrome v139.0.7258.139 (64-bit)`
 - **Pre-requisite:** Open the website `https://paulini.lt/` in a web browser
@@ -336,7 +336,7 @@
 - A button labeled `PATVIRTINTI REGISTRACIJĄ` is visible
 
 
-### 🧪✅ **TC 03.02. - The "AKCIJOS IR NAUJIENOS" page is accessible from the "hamburger" menu**
+### 🧪✅ [**TC 03.02. - The "AKCIJOS IR NAUJIENOS" page is accessible from the "hamburger" menu**](/pictures/hamburgerImg/tc0302/akcijos_naujienos_field_hamburger.png)
 
 - **Environment:** `Windows 11`, `Chrome v139.0.7258.139 (64-bit)`
 - **Pre-requisite:** Open the website `https://paulini.lt/` in a web browser
@@ -356,7 +356,7 @@
 - The page shows offers where each includes a title, short description, and optionally an image or expiration date
 
 
-### 🧪✅ **TC 03.03. - The "PASLAUGOS IR PREKĖS" page is accessible from the "hamburger" menu**
+### 🧪✅ [**TC 03.03. - The "PASLAUGOS IR PREKĖS" page is accessible from the "hamburger" menu**](/pictures/hamburgerImg/tc0303/paslaugos_prekes_field_hamburger.png)
 
 - **Environment:** `Windows 11`, `Chrome v139.0.7258.139 (64-bit)`
 - **Pre-requisite:** Open the website `https://paulini.lt/` in a web browser
@@ -376,7 +376,7 @@
 - The page displays a list of all goods and services
 
 
-### 🧪✅ **TC 03.04. - The "KREDITAI IR KUPONAI" page is accessible from the "hamburger" menu**
+### 🧪✅ [**TC 03.04. - The "KREDITAI IR KUPONAI" page is accessible from the "hamburger" menu**](/pictures/hamburgerImg/tc0304/kreditai_kuponai_field_hamburger.png)
 
 - **Environment:** `Windows 11`, `Chrome v139.0.7258.139 (64-bit)`
 - **Pre-requisite:** Open the website `https://paulini.lt/` in a web browser
@@ -396,7 +396,7 @@
 - The page displays a list of coupons with credits
 
 
-### 🧪✅ **TC 03.05. - The "PRIĖMIMO SKYRIAI" page is accessible from the "hamburger" menu**
+### 🧪✅ [**TC 03.05. - The "PRIĖMIMO SKYRIAI" page is accessible from the "hamburger" menu**](/pictures/hamburgerImg/tc0305/priemimo_skyriai_field_hamburger.png)
 
 - **Environment:** `Windows 11`, `Chrome v139.0.7258.139 (64-bit)`
 - **Pre-requisite:** Open the website `https://paulini.lt/` in a web browser
@@ -416,7 +416,7 @@
   - The breadcrumb `PAULINI > PRIĖMIMO SKYRIAI` appears above the list on the left side
 
 
-### 🧪✅ **TC 03.06. - The "APIE MUS" page is accessible from the "hamburger" menu**
+### 🧪✅ [**TC 03.06. - The "APIE MUS" page is accessible from the "hamburger" menu**](/pictures/hamburgerImg/tc0306/apie_mus_field_hamburger.png)
 
 - **Environment:** `Windows 11`, `Chrome v139.0.7258.139 (64-bit)`
 - **Pre-requisite:** Open the website `https://paulini.lt/` in a web browser
@@ -437,7 +437,7 @@
 - The breadcrumb `PAULINI > APIE MUS` appears above the describe on the left side
 
 
-### 🧪✅ **TC 03.07. - The "PASIEKIMAI" page is accessible from the "hamburger" menu**
+### 🧪✅ [**TC 03.07. - The "PASIEKIMAI" page is accessible from the "hamburger" menu**](/pictures/hamburgerImg/tc0307/pasiekimai_field_hamburger.png)
 
 - **Environment:** `Windows 11`, `Chrome v139.0.7258.139 (64-bit)`
 - **Pre-requisite:** Open the website `https://paulini.lt/` in a web browser
@@ -457,7 +457,7 @@
 - The page displays a list of `PAULINI` achievements
 
 
-### 🧪✅ **TC 03.08. - The "PARTNERIAI" page is accessible from the "hamburger" menu**
+### 🧪✅ [**TC 03.08. - The "PARTNERIAI" page is accessible from the "hamburger" menu**](/pictures/hamburgerImg/tc0308/partneriai_field_hamburger.png)
 
 - **Environment:** `Windows 11`, `Chrome v139.0.7258.139 (64-bit)`
 - **Pre-requisite:** Open the website `https://paulini.lt/` in a web browser
@@ -477,7 +477,7 @@
 - The page displays a list of `PAULINI` business partners
 
 
-### 🧪✅ **TC 03.09. - The "KLAUSKITE?" page is accessible from the "hamburger" menu**
+### 🧪✅ [**TC 03.09. - The "KLAUSKITE?" page is accessible from the "hamburger" menu**](/pictures/hamburgerImg/tc0309/klauskite_field_hamburger.png)
 
 - **Environment:** `Windows 11`, `Chrome v139.0.7258.139 (64-bit)`
 - **Pre-requisite:** Open the website `https://paulini.lt/` in a web browser
@@ -497,7 +497,7 @@
 - The breadcrumb `PAULINI > TURITE KLAUSIMŲ?` appears above the list on the left side
 
 
-### 🧪✅ **TC 03.10. - The "TAISYKLĖS" page is accessible from the "hamburger" menu**
+### 🧪✅ [**TC 03.10. - The "TAISYKLĖS" page is accessible from the "hamburger" menu**](/pictures/hamburgerImg/tc0310/taisykles_field_hamburger.png)
 
 - **Environment:** `Windows 11`, `Chrome v139.0.7258.139 (64-bit)`
 - **Pre-requisite:** Open the website `https://paulini.lt/` in a web browser
@@ -517,7 +517,7 @@
 - The page displays a list of rules
 
 
-### 🧪✅ **TC 03.11. - The "PRIVATUMO POLITIKA" page is accessible from the "hamburger" menu**
+### 🧪✅ [**TC 03.11. - The "PRIVATUMO POLITIKA" page is accessible from the "hamburger" menu**](/pictures/hamburgerImg/tc0311/privatumo_politika_field_hamburger.png)
 
 - **Environment:** `Windows 11`, `Chrome v139.0.7258.139 (64-bit)`
 - **Pre-requisite:** Open the website `https://paulini.lt/` in a web browser
@@ -539,7 +539,7 @@
 
 ## logged in user hamburger menu
 
-### 🧪✅ [**TC 03.12 - Verify that the page displays order history if available**](/pictures/hamburgerImg/hamburgeriopasirinkimas0413.jpg)
+### 🧪✅ [**TC 03.12 - Verify that the page displays order history if available**](/pictures/hamburgerImg/tc0312/uzsakymu_istorija_field_hamburger.png)
 
 - **Environment:** `Windows 11`, `Chrome v139.0.7258.139 (64-bit)`
 - **Pre-requisite:** Open the website `https://paulini.lt/` in a web browser
@@ -556,7 +556,7 @@
 
 [back](/testCases.md)
 
-### 🧪✅ **TC 03.13 - Access to Cart via Hamburger Menu**
+### 🧪✅ [**TC 03.13 - Access to Cart via Hamburger Menu**](/pictures/hamburgerImg/tc0313/jusu_krepselis_field_hamburger.png)
 
 - **Environment:** `Windows 11`, `Chrome v139.0.7258.139 (64-bit)`
 - **Pre-requisite:** Open the website `https://paulini.lt/` in a web browser
@@ -574,7 +574,7 @@
 - The breadcrumb `PAULINI > KREPŠELIS` appears cart information
 
 
-### 🧪✅ **TC 03.14 - Verify functionality of the Account Settings page**
+### 🧪✅ [**TC 03.14 - Verify functionality of the Account Settings page**](/pictures/hamburgerImg/tc0314/paskyros_nustatymai_field_hamburger.png)
 
 - **Environment:** `Windows 11`, `Chrome v139.0.7258.139 (64-bit)`
 - **Pre-requisite:** Open the website `https://paulini.lt/` in a web browser
