@@ -7,7 +7,7 @@
 ##  Login positive tests
 
 
-### 🧪✅  **TC 01.01. - Positive: login with email from main page**
+### 🧪✅  [**TC 01.01. - Positive: login with email from main page**](/pictures/loginImg/tc0101/prisijungti.button.png)
 
 - **Environment:**  `Windows 11`, `Chrome v139.0.7258.139 (64-bit)`
 - **Pre-requisite:**
@@ -31,7 +31,7 @@
 - Top-left corner of the page shows: `DISPLAY_NAME`
 
 
-### 🧪✅ **TC 01.02. - Positive: login with phone number from main page**
+### 🧪✅ [**TC 01.02. - Positive: login with phone number from main page**](/pictures/loginImg/tc0102/prisijungti.button.png)
 
 - **Environment:** `Windows 11`, `Chrome v139.0.7258.139 (64-bit)`
 - **Pre-requisite:** 
@@ -54,7 +54,7 @@
 - Top-left corner of the page shows: `DISPLAY_NAME`
 
 
-### 🧪✅ **TC 01.03. - Positive: login from header**
+### 🧪✅ [**TC 01.03. - Positive: login from header**](/pictures/loginImg/tc0103/login.form.png)
 
 - **Environment:** `Windows 11`, `Chrome v139.0.7258.139 (64-bit)`
 - **Pre-requisite:** 
@@ -75,7 +75,7 @@
 - The `PRISIJUNGTI` action button is visible and functional
 
 
-### 🧪✅ **TC 01.04. - Positive: login from hamburger menu**
+### 🧪✅ [**TC 01.04. - Positive: login from hamburger menu**](/pictures/loginImg/tc0104/hmbrg.item.prisijungti.png)
 
 - **Environment:** `Windows 11`, `Chrome v139.0.7258.139 (64-bit)`
 - **Pre-requisite:** 
@@ -101,7 +101,7 @@
 
 ## 👍 Login negative tests
 
-### 🧪✅ **TC 01.05. - Negative: login when email without "@" symbol**
+### 🧪✅ [**TC 01.05. - Negative: login when email without "@" symbol**](/pictures/loginImg/tc0105/incorrect.email.png)
 
 - **Environment:** `Windows 11`, `Chrome v139.0.7258.139 (64-bit)`
 - **Pre-requisite:** Open the website `https://paulini.lt/` in a web browser
@@ -119,7 +119,7 @@
 `Neteisingi prisijungimo duomenys`
 
 
-### 🧪✅ **TC 01.06. - Negative: login fails with invalid phone number**
+### 🧪✅ [**TC 01.06. - Negative: login fails with invalid phone number**](/pictures/loginImg/tc0106/incorrect.phone.nmb.png)
 
 - **Environment:** `Windows 11`, `Chrome v139.0.7258.139 (64-bit)`
 - **Pre-requisite:** Open the website `https://paulini.lt/` in a web browser
@@ -137,7 +137,7 @@
 `Neteisingi prisijungimo duomenys`
 
 
-### 🧪✅ **TC 01.07. - Negative: login fails with invalid password**
+### 🧪✅ [**TC 01.07. - Negative: login fails with invalid password**](/pictures/loginImg/tc0107/incorrect.passw.png)
 
 - **Environment:** `Windows 11`, `Chrome v139.0.7258.139 (64-bit)`
 - **Pre-requisite:** Open the website `https://paulini.lt/` in a web browser
@@ -239,7 +239,7 @@
 - The breadcrumb `PAULINI > APIE MUS` appears above the describe on the left side
 
 
-### 🧪✅ **TC 02.06. - Page "PRIĖMIMO SKYRIAI" is visible and accessible from "AKCIJOS IR NAUJIENOS" page**
+### 🧪✅ [**TC 02.06. - Page "PRIĖMIMO SKYRIAI" is visible and accessible from "AKCIJOS IR NAUJIENOS" page**](/pictures/navigatioImg/tc0206/breadcrumb.priemimo_skyriai.png)
 
 - **Environment:** `Windows 11`, `Chrome v139.0.7258.139 (64-bit)`
 - **Pre-requisite:** Open the website `https://paulini.lt/` in a web browser
@@ -258,7 +258,7 @@
 - The breadcrumb `PAULINI > PRIĖMIMO SKYRIAI` appears above the list on the left side
 
 
-### 🧪✅ **TC 02.07. - Page "APIE MUS" is visible and accessible from "AKCIJOS IR NAUJIENOS" page** 
+### 🧪✅ [**TC 02.07. - Page "APIE MUS" is visible and accessible from "AKCIJOS IR NAUJIENOS" page**](/pictures/navigatioImg/tc0207/breadcrumb.apie_mus.png) 
 
 - **Environment:** `Windows 11`, `Chrome v139.0.7258.139 (64-bit)`
 - **Pre-requisite:** Open the website `https://paulini.lt/` in a web browser
@@ -276,7 +276,7 @@
 - The breadcrumb `PAULINI > APIE MUS` appears above the describe on the left side
 
 
-### 🧪✅ **TC 02.08. - Page "PRIĖMIMO SKYRIAI" is visible and accessible from "APIE MUS" page**
+### 🧪✅ [**TC 02.08. - Page "PRIĖMIMO SKYRIAI" is visible and accessible from "APIE MUS" page**](/pictures/navigatioImg/tc0208/breadcrumb.priemimo_skyriai.png)
 
 - **Environment:** `Windows 11`, `Chrome v139.0.7258.139 (64-bit)`
 - **Pre-requisite:** Open the website `https://paulini.lt/` in a web browser
@@ -292,7 +292,7 @@
   - The breadcrumb `PAULINI > PRIĖMIMO SKYRIAI` appears above the list on the left side
 
 
-### 🧪✅ **TC 02.09. - Page "AKCIJOS IR NAUJIENOS" is visible and accessible from "APIE MUS" page** 
+### 🧪✅ [**TC 02.09. - Page "AKCIJOS IR NAUJIENOS" is visible and accessible from "APIE MUS" page**](/pictures/navigatioImg/tc0209/breadcrumb.akcijos_naujienos.png) 
 
 - **Environment:** `Windows 11`, `Chrome v139.0.7258.139 (64-bit)`
 - **Pre-requisite:** Open the website `https://paulini.lt/` in a web browser
