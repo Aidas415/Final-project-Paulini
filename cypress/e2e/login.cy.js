@@ -16,18 +16,34 @@ describe("TS 01. Login positive tests", () => {
   it("TC 01.02. - Positive: login with phone number from main page", () => {
     cy.getLoginInputField().type(Cypress.env("USER_PHONE_NUMBER"));
     cy.getPasswordInputField().type(Cypress.env("USER_PASSWORD"));
-    cy.getLoginButton().should("not.be.disabled").click();
+    cy.getLoginButton().should("be.visible").should("not.be.disabled").click();
     cy.getLoggedInUserName().should("contain", Cypress.env("DISPLAY_NAME"));
   });
 
   it("TC 01.03. - Positive: login from header", () => {
+    const expectedBreadcrumbText = "Prisijungti";
     cy.clickHeaderLoginButton();
     cy.loginForm().should("be.visible");
+    cy.checkUrlOfPage("/prisijungimas");
+    cy.getBreadcrumbItems().should("have.length.at.least", 2);
+    cy.getBreadcrumbItems().first().should("contain.text", "PAULINI");
+    cy.getBreadcrumbItems()
+      .last()
+      .should("contain.text", expectedBreadcrumbText);
+    cy.getLoginButton().should("be.visible").should("not.be.disabled");
   });
 
   it("TC 01.04. - Positive: login from hamburger menu", () => {
+    const expectedBreadcrumbText = "Prisijungti";
     cy.clickOnPrisijungtiFromHamburgerMenu();
     cy.loginForm().should("be.visible");
+    cy.checkUrlOfPage("/prisijungimas");
+    cy.getBreadcrumbItems().should("have.length.at.least", 2);
+    cy.getBreadcrumbItems().first().should("contain.text", "PAULINI");
+    cy.getBreadcrumbItems()
+      .last()
+      .should("contain.text", expectedBreadcrumbText);
+    cy.getLoginButton().should("be.visible").should("not.be.disabled");
   });
 });
 
