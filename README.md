@@ -102,8 +102,8 @@ You can view the test results directly in the Actions tab of your GitHub reposit
 ├── 🖼️ pictures
 │   ├── 📁📷 hamburgerImg
 │   ├── 📁📷 img
-│   ├── 📁📷 login.img
-│   └── 📁📷 navigation.img   
+│   ├── 📁📷 loginImg
+│   └── 📁📷 navigationImg   
 ├── 📄 .gitignore
 ├── 📄 cypress.config 
 ├── 📄 jira.md
