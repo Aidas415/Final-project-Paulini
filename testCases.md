@@ -158,7 +158,7 @@
 ## **TS 02. Navigation Menu**
 
 
-### 🧪✅ [**TC 02.01. - Page "PRIĖMIMO SKYRIAI" is visible and accessible from main page**](/pictures/navigatioImg/tc0201/breadcrumb.priemimo_skyriai.png)
+### 🧪✅ [**TC 02.01. - Page "PRIĖMIMO SKYRIAI" is visible and accessible from main page**](/pictures/navigationImg/tc0201/breadcrumb.priemimo_skyriai.png)
 
 - **Environment:** `Windows 11`, `Chrome v139.0.7258.139 (64-bit)`
 - **Pre-requisite:** 
@@ -174,7 +174,7 @@
   - The breadcrumb `PAULINI > PRIĖMIMO SKYRIAI` appears above the list on the left side
 
 
-### 🧪✅ [**TC 02.02. - Page "AKCIJOS IR NAUJIENOS" is visible and accessible from main page**](/pictures/navigatioImg/tc0202/breadcrumb.akcijos_naujienos.png)
+### 🧪✅ [**TC 02.02. - Page "AKCIJOS IR NAUJIENOS" is visible and accessible from main page**](/pictures/navigationImg/tc0202/breadcrumb.akcijos_naujienos.png)
 
 - **Environment:** `Windows 11`, `Chrome v139.0.7258.139 (64-bit)`
 - **Pre-requisite:** Open the website `https://paulini.lt/` in a web browser
@@ -188,7 +188,7 @@
 - the top-left corner of the page shows the breadcrumb `PAULINI > AKCIJOS IR NAUJIENOS` 
 
 
-### 🧪✅ [**TC 02.03. - Page "APIE MUS" is visible and accessible from main page**](/pictures/navigatioImg/tc0203/breabcrum.apie_mus.png) 
+### 🧪✅ [**TC 02.03. - Page "APIE MUS" is visible and accessible from main page**](/pictures/navigationImg/tc0203/breabcrum.apie_mus.png) 
 
 - **Environment:** `Windows 11`, `Chrome v139.0.7258.139 (64-bit)`
 - **Pre-requisite:** 
@@ -203,7 +203,7 @@
 - The breadcrumb `PAULINI > APIE MUS` appears above the describe on the left side
 
 
-### 🧪✅ [**TC 02.04. - Page "AKCIJOS IR NAUJIENOS" is visible and accessible from "PRIĖMIMO SKYRIAI" page**](/pictures/navigatioImg/tc0204/breadcrumb.akcijos_naujienos.png) 
+### 🧪✅ [**TC 02.04. - Page "AKCIJOS IR NAUJIENOS" is visible and accessible from "PRIĖMIMO SKYRIAI" page**](/pictures/navigationImg/tc0204/breadcrumb.akcijos_naujienos.png) 
 
 - **Environment:** `Windows 11`, `Chrome v139.0.7258.139 (64-bit)`
 - **Pre-requisite:** Open the website `https://paulini.lt/` in a web browser
@@ -221,7 +221,7 @@
 - The top-left corner of the page shows the breadcrumb `PAULINI > AKCIJOS IR NAUJIENOS` 
 
 
-### 🧪✅ [**TC 02.05. - Page "APIE MUS" is visible and accessible from "PRIĖMIMO SKYRIAI" page**](/pictures/navigatioImg/tc0205/breadcrumb.apie_mus.png) 
+### 🧪✅ [**TC 02.05. - Page "APIE MUS" is visible and accessible from "PRIĖMIMO SKYRIAI" page**](/pictures/navigationImg/tc0205/breadcrumb.apie_mus.png) 
 
 - **Environment:** `Windows 11`, `Chrome v139.0.7258.139 (64-bit)`
 - **Pre-requisite:** Open the website `https://paulini.lt/` in a web browser
@@ -239,7 +239,7 @@
 - The breadcrumb `PAULINI > APIE MUS` appears above the describe on the left side
 
 
-### 🧪✅ [**TC 02.06. - Page "PRIĖMIMO SKYRIAI" is visible and accessible from "AKCIJOS IR NAUJIENOS" page**](/pictures/navigatioImg/tc0206/breadcrumb.priemimo_skyriai.png)
+### 🧪✅ [**TC 02.06. - Page "PRIĖMIMO SKYRIAI" is visible and accessible from "AKCIJOS IR NAUJIENOS" page**](/pictures/navigationImg/tc0206/breadcrumb.priemimo_skyriai.png)
 
 - **Environment:** `Windows 11`, `Chrome v139.0.7258.139 (64-bit)`
 - **Pre-requisite:** Open the website `https://paulini.lt/` in a web browser
@@ -258,7 +258,7 @@
 - The breadcrumb `PAULINI > PRIĖMIMO SKYRIAI` appears above the list on the left side
 
 
-### 🧪✅ [**TC 02.07. - Page "APIE MUS" is visible and accessible from "AKCIJOS IR NAUJIENOS" page**](/pictures/navigatioImg/tc0207/breadcrumb.apie_mus.png) 
+### 🧪✅ [**TC 02.07. - Page "APIE MUS" is visible and accessible from "AKCIJOS IR NAUJIENOS" page**](/pictures/navigationImg/tc0207/breadcrumb.apie_mus.png) 
 
 - **Environment:** `Windows 11`, `Chrome v139.0.7258.139 (64-bit)`
 - **Pre-requisite:** Open the website `https://paulini.lt/` in a web browser
@@ -276,7 +276,7 @@
 - The breadcrumb `PAULINI > APIE MUS` appears above the describe on the left side
 
 
-### 🧪✅ [**TC 02.08. - Page "PRIĖMIMO SKYRIAI" is visible and accessible from "APIE MUS" page**](/pictures/navigatioImg/tc0208/breadcrumb.priemimo_skyriai.png)
+### 🧪✅ [**TC 02.08. - Page "PRIĖMIMO SKYRIAI" is visible and accessible from "APIE MUS" page**](/pictures/navigationImg/tc0208/breadcrumb.priemimo_skyriai.png)
 
 - **Environment:** `Windows 11`, `Chrome v139.0.7258.139 (64-bit)`
 - **Pre-requisite:** Open the website `https://paulini.lt/` in a web browser
@@ -292,7 +292,7 @@
   - The breadcrumb `PAULINI > PRIĖMIMO SKYRIAI` appears above the list on the left side
 
 
-### 🧪✅ [**TC 02.09. - Page "AKCIJOS IR NAUJIENOS" is visible and accessible from "APIE MUS" page**](/pictures/navigatioImg/tc0209/breadcrumb.akcijos_naujienos.png) 
+### 🧪✅ [**TC 02.09. - Page "AKCIJOS IR NAUJIENOS" is visible and accessible from "APIE MUS" page**](/pictures/navigationImg/tc0209/breadcrumb.akcijos_naujienos.png) 
 
 - **Environment:** `Windows 11`, `Chrome v139.0.7258.139 (64-bit)`
 - **Pre-requisite:** Open the website `https://paulini.lt/` in a web browser
