@@ -55,7 +55,7 @@ USER_PASSWORD=your_secure_password
 DISPLAY_NAME=Test User
 ```
 
-> 📌 Usage Scope
+## 📌 Usage Scope
 
 These variables are only used in the following test scenarios:
 
@@ -77,7 +77,8 @@ You can view the test results directly in the Actions tab of your GitHub reposit
 
 ## 🧩 Project Structure
 
-### 📌 Icon meanings
+> 📌 Icon meanings
+
 - 📁 –  folder
 - 📄 – file
 - 📁📷 –  folder containing screenshots
