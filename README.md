@@ -55,7 +55,7 @@ USER_PASSWORD=your_secure_password
 DISPLAY_NAME=Test User
 ```
 
-## 📌 Usage Scope
+> 📌 Usage Scope
 
 These variables are only used in the following test scenarios:
 
@@ -64,7 +64,7 @@ These variables are only used in the following test scenarios:
 - **TC 03.13** - Password change flow
 - **TC 03.14** - Display name verification
 
-> ⚠️ **Note:** If these variables are not set, the above test cases will fail or be skipped. Use mock/test accounts only.
+## ⚠️ **Note:** If these variables are not set, the above test cases will fail or be skipped. Use mock/test accounts only.
 
 ## ▶️ ️ GitHub Actions
 This project uses GitHub Actions to automatically run Cypress tests on every push or pull request. The workflow file is located at
@@ -77,7 +77,7 @@ You can view the test results directly in the Actions tab of your GitHub reposit
 
 ## 🧩 Project Structure
 
-### Icon meanings
+### 📌 Icon meanings
 - 📁 –  folder
 - 📄 – file
 - 📁📷 –  folder containing screenshots
