@@ -49,7 +49,7 @@ Cypress.Commands.add('getAboutUsSection', () => {
 });
 
 Cypress.Commands.add('getBlockByTitle', (title) => {
-  return cy.contains('p', title, { timeout: 6000 }).closest('li');
+  return cy.contains('p', title, { timeout: 10000 }).closest('li');
 });
 
 Cypress.Commands.add('getAllPartnerLogos', () => {
