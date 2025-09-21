@@ -1,4 +1,4 @@
-# Paulini Website Testing Project with Cypress, Jira, and GitHub Actions
+# 🚀 Paulini Website Testing Project with Cypress, Jira, and GitHub Actions
 
 This project is designed to automate website testing using [Cypress](https://www.cypress.io/) and manage test scenarios through [Jira](https://www.atlassian.com/software/jira). The tests are executed and monitored via GitHub Actions for continuous integration. At this project you will need to use enviroments. Project website https://paulini.lt/
 
@@ -9,7 +9,7 @@ This project is designed to automate website testing using [Cypress](https://www
 - **CI/CD:** GitHub Actions
 - **Documentation:** Markdown files for scenario execution
 
-## 🚀 Getting Started
+## 🏁 Getting Started
 
 To run this project locally, follow these steps:
 
