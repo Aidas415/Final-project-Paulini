@@ -81,6 +81,7 @@ You can view the test results directly in the Actions tab of your GitHub reposit
 
 - 📁 –  folder
 - 📄 – file
+- 🔬 – Cypress test file 
 - 📁📷 –  folder containing screenshots
 - 🖼️ – main image directory
 
@@ -92,9 +93,9 @@ You can view the test results directly in the Actions tab of your GitHub reposit
 │   ├── 📁 downloads
 │   │   └── 📄 downloads.htm
 │   ├── 📁 e2e
-│   │   ├── 📄 hamburger.cy.js
-│   │   ├── 📄 login.cy.js
-│   │   └── 📄 navigation.cy.js
+│   │   ├── 🔬 hamburger.cy.js
+│   │   ├── 🔬 login.cy.js
+│   │   └── 🔬 navigation.cy.js
 │   ├── 📁 fixtures
 │   │   └── 📄 example.json
 │   └── 📁 support
