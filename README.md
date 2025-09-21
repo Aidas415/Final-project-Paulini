@@ -82,8 +82,9 @@ You can view the test results directly in the Actions tab of your GitHub reposit
 - 🖼️ – main image directory
 
 ```
-├── 📁 .github\workflows
-│   └── 📄 node.js.yml
+├── 📁 .github
+│   └── 📁 workflows
+│       └── 📄 node.js.yml
 ├── 📁 cypress
 │   ├── 📁 downloads
 │   │   └── 📄 downloads.htm
