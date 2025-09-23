@@ -122,7 +122,7 @@ You can view the test results directly in the **Actions** tab of your GitHub rep
 
 ## 📜 License
 
-ISC License
+This project is licensed under the [ISC License](https://opensource.org/licenses/ISC).
 
 ## 👤 Author
 
