@@ -113,13 +113,13 @@ These variables are only used in the following test scenarios:
 ## ⚠️ **Note:** If these variables are not set, the above test cases will fail or be skipped. Use mock/test accounts only.
 
 ## ▶️ ️ GitHub Actions
-This project uses GitHub Actions to automatically run Cypress tests on every push or pull request. The workflow file is located at
 
-```
-.github/workflows/node.yml
-```
+This project uses GitHub Actions to automatically run Cypress tests on every push or pull request.
 
-You can view the test results directly in the Actions tab of your GitHub repository.
+Workflow file: [`node.js.yml`](https://github.com/Aidas415/Final-project-Paulini/blob/main/.github/workflows/node.js.yml)
+
+You can view the test results directly in the **Actions** tab of your GitHub repository.
+
 
 ## 👤 Author
 
