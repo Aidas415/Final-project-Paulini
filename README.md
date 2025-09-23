@@ -52,7 +52,7 @@ This project is designed to automate website testing using [Cypress](https://www
 
 - **Testing Tool:** Cypress
 - **Test Management:** Jira
-- **CI/CD:** GitHub Actions
+- **CI/CD Pipeline:** [GitHub Actions](https://docs.github.com/en/actions) 
 - **Documentation:** Markdown files for scenario execution
 
 ## 🏁 Getting Started
@@ -123,8 +123,6 @@ You can view the test results directly in the Actions tab of your GitHub reposit
 
 ## 👤 Author
 
-```
-Created by Aidas
-📧 Email: aidasambotas@gmail.com
-🌐 GitHub: https://github.com/Aidas415
-```
+Created by **Aidas Ambotas**  
+📧 Email: [aidasambotas@gmail.com](mailto:aidasambotas@gmail.com)  
+🌐 GitHub: [github.com/Aidas415](https://github.com/Aidas415)
