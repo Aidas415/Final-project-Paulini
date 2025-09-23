@@ -120,6 +120,9 @@ Workflow file: [`node.js.yml`](https://github.com/Aidas415/Final-project-Paulini
 
 You can view the test results directly in the **Actions** tab of your GitHub repository.
 
+## 📜 License
+
+ISC License
 
 ## 👤 Author
 
