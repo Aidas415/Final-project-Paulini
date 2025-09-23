@@ -4,6 +4,8 @@
 
 This project is designed to automate website testing using [Cypress](https://www.cypress.io/) and manage test scenarios through [Jira](https://www.atlassian.com/software/jira). The tests are executed and monitored via GitHub Actions for continuous integration. At this project you will need to use enviroments. Project website https://paulini.lt/
 
+---
+
 ## 🧩 Project Structure
 
 > 📌 Icon meanings
